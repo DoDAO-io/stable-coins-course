@@ -1,0 +1,31 @@
+{
+  "key": "stable-coins",
+  "title": "Stable Coins",
+  "summary": "This is an introductory course for anyone trying to understand how StableCoins works in DeFi\n",
+  "details": "In this course we first ....",
+  "duration": "30 mins - 1 hour",
+  "highlights": [
+    "Stable Coins Into",
+    "USDC",
+    "USDT",
+    "DAI"
+  ],
+  "publishStatus": "Draft",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg",
+  "courseAdmins": [
+    "0x34d014758297c00fea49935fce172677904d51ef"
+  ],
+  "coursePassContent": "Pass content of Course !!!!!!!!!!",
+  "topics": [
+    {
+      "title": "Intoduction",
+      "key": "intoduction",
+      "details": "Stable Coins Intro\n",
+      "order": 0,
+      "explanations": [],
+      "questions": [],
+      "readings": [],
+      "summaries": []
+    }
+  ]
+}

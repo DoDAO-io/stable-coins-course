@@ -1,0 +1,23 @@
+title: Stable Coins
+key: stable-coins
+summary: >
+  This is an introductory course for anyone trying to understand how StableCoins
+  works in DeFi
+highlights:
+  - Stable Coins Into
+  - USDC
+  - USDT
+  - DAI
+publishStatus: Draft
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
+details: >-
+  In this course we first ....
+duration: 30 mins - 1 hour
+topics:
+  - key: intoduction
+    title: Intoduction
+    details: >+
+      Stable Coins Intro
+courseAdmins:
+  - '0x34d014758297c00fea49935fce172677904d51ef'
+coursePassContent: Pass content of Course !!!!!!!!!!
