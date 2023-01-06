@@ -14,4 +14,5 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  | S.No        | Title       | Contents   | Links      | Status      | Completion Week |
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
- | 1      | Intoduction | | [Details](generated/topics/intoduction.md) <br/>  <br/>  <br/>  <br/>  | undefined | undefined | 
+ | 1      | Intoduction | | [Details](generated/topics/intoduction.md) <br/>  <br/>  <br/>  <br/>  | undefined | undefined |
+ | 2      | USDC | | [Details](generated/topics/USDC.md) <br/> [Explanations](generated/explanations/usdc.md) <br/>  <br/>  <br/> [Questions](generated/questions/usdc.md) | In Progress | In Progress | 
