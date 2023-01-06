@@ -19,7 +19,7 @@ topics:
     details: >+
       Stable Coins Intro
   - title: USDC
-    key: USDC
+    key: usdc
     details: >
       This chapter talks about USDC.
     explanations: usdc.yaml

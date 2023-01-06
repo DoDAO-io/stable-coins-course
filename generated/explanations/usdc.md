@@ -46,4 +46,8 @@ USDC is fully backed by the equivalent value of U.S. dollar-denominated assets a
 
 USDC is always redeemable 1:1 for U.S. dollars. Customers of Circle can mint or redeem USDC in exchange for U.S. dollars through their Circle account, with the exchange happening nearly instantly subject to the settlement of funds. Individual retail users can also exchange USDC for U.S. dollars globally through leading digital asset exchanges such as Binance and Coinbase. As of May 13, 2022, Circle had minted 99.3 billion USDC and redeemed 61.1 billion USDC during the year. There are thousands of projects and exchanges supporting USDC in over 190 countries, facilitating its use and exchange for market participants. On Jan 5, 2023, the 24-hour trading volume of USDC was $ 4 billion.
  
+ **References**        
+`https://www.circle.com/en/usdc`
+`https://www.centre.io/usdc`
+ 
  
