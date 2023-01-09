@@ -341,6 +341,314 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "title": "USDT",
+      "key": "usdt",
+      "details": "This chapter talks about USDT.\n",
+      "order": 2,
+      "explanations": [
+        {
+          "title": "USD Coin",
+          "shortTitle": "USDC",
+          "key": "usdc-introduction",
+          "details": "### History\n\n\nUSDT (Tether) is a stablecoin, which means it is a type of cryptocurrency that is pegged to a stable asset, such as the US dollar, and is designed to maintain a stable value. It was first issued in 2014 by Tether Limited, a company founded by Brock Pierce, Reeve Collins, and Craig Sellars. Originally called Realcoin, the stablecoin did not gain much popularity. In 2015, Tether was acquired by new owners based in Hong Kong, who also owned the Bitfinex cryptocurrency exchange. The integration of Tether into the Bitfinex ecosystem led to an increase in its popularity.\n\n\nHowever, Tether's Taiwanese banking partners grew concerned about the lack of know-your-customer (KYC) checks and other safeguards as the stablecoin circulated on various blockchains. They ended their relationship with Tether in 2017, which jeopardized Tether's ability to facilitate the conversion of fiat currency to cryptocurrency and vice versa. Tether was able to secure new banking partners in Puerto Rico and the Bahamas, and during the subsequent cryptocurrency bull market, Tether's stablecoins (others being EURT, CNHT, MXNT, XAUT) became widely used, with its flagship USDT token ranking among the top tokens by traded volume and market capitalization.\n\n\nTether was originally built on the Bitcoin network, but has since expanded to other leading blockchains. It is registered in the British Virgin Islands and lists JL van der Velde as its CEO. Tether and Bitfinex are both owned by iFinex.\n\n\n### Mint and Burn\n\n\nTether Limited issues USDT by \"minting\" new tokens and adding them to circulation. This is done through a process called \"issuance,\" which involves Tether Limited sending the stablecoin to exchanges or other approved parties in exchange for an equal value of the stable asset (e.g., US dollars). Tether Limited can also \"burn\" USDT by removing them from circulation. This is typically done when the company receives the stablecoin back from exchanges or other approved parties in exchange for the stable asset.\n\n\n### Transparency and Audits\n\n\nTether Limited has faced criticism over its lack of transparency, as the company has not undergone a full audit to prove that it has the necessary reserves to back all of the USDT in circulation. In 2017, Tether Limited hired accounting firm Friedman LLP to conduct an audit, but the audit was never completed and the relationship between the two companies ended in January 2018. \n\n\nTether has been publishing quarterly audit [reports](https://tether.to/en/transparency/#reports) since 2021 with the help of firms such as Moore, Mha Cayman and BDO. However, most of the companies feel that those are just attestation which don't give the full picture.\n\n\n### How They are Backed\n\n\nUSDT is meant to be backed 1:1 by the stable asset, meaning that for every USDT in circulation, Tether Limited is supposed to hold an equivalent value of the stable asset in reserve. According to Tether Limited, the stable asset backing USDT is typically held in the form of US Treasury bills, which are low-risk, short-term debt securities issued by the US government. However, as mentioned above, the company has not undergone a full audit to prove that it has the necessary reserves to back all of the USDT in circulation.\n\n\n### Issues and Hacks\n\n\nTether Limited and its affiliated exchange, Bitfinex, have faced several controversies over the years. One of the main controversies is the allegation of price manipulation. In April 2017, the US Commodity Futures Trading Commission (CFTC) issued subpoenas to Tether Limited and Bitfinex as part of an investigation into potential market manipulation. In 2018, researchers Griffin and Shams published a study suggesting that Bitcoin prices increased after Tether minted new USDT during market downturns, potentially as an attempt at market manipulation. However, this conclusion was disputed by Bitfinex, the cryptocurrency exchange that is affiliated with Tether, and subsequent researchers have found little to no evidence that Tether's issuance of USDT influenced Bitcoin prices.\n\n\nAnother controversy surrounding Tether is its lack of transparency and audits. Tether claims that its USDT stablecoin is backed 1:1 by US dollars held in reserve, but the company has not undergone a full audit to prove this. In 2018, the New York Attorney General's office filed a lawsuit against Tether and Bitfinex, alleging that the companies had engaged in a cover-up to hide the loss of $850 million in client and corporate funds. The case is ongoing.\n\n\nTether and Bitfinex have also faced security and liquidity issues. In August 2016, Bitfinex was hacked and lost approximately 120,000 bitcoins, worth over $70 million at the time. In November 2017, $31 million worth of USDT was stolen from the company. Tether has also struggled to meet withdrawal requests in the past and has not produced an audit showing that it has the necessary reserves to back all of the USDT in circulation.\n\n\nIn September 2022, Bitfinex and Tether (referred to in court records as B/T) were ordered by the New York District Court to produce documents showing the backing of USDT, the outcome of which is still pending. The court also ordered B/T to stop loaning out Tether's stablecoins and to provide a full accounting of the Tether reserve. You can read more about it [here](https://cointelegraph.com/news/new-york-judge-orders-tether-to-document-usdt-backing).\n\n\n### Good and Bad News\n\nDespite the controversies surrounding Tether Limited and Bitfinex, USDT has become one of the most widely used stablecoins in the cryptocurrency market. It is accepted on a wide range of exchanges and is often used as a \"bridge currency\" to facilitate trades between different cryptocurrencies. This widespread adoption has helped to make USDT a key player in the cryptocurrency market.\n\n\nHowever, the lack of transparency and audits has also led to concerns about the stability of USDT and the potential for fraud or mismanagement. Until Tether Limited undergoes a full audit and proves that it has the necessary reserves to back all of the USDT in circulation, these concerns are likely to continue.\n\n\n### References\n\n\n  - `https://tether.to/en/`\n  - `https://en.wikipedia.org/wiki/Tether_(cryptocurrency)`\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "0ba7d128-2865-4cf3-a81b-76823f99fade",
+          "type": "SingleChoice",
+          "content": "Who founded Tether Limited?",
+          "hint": "Three founders",
+          "explanation": "Tether Limited was founded by Reeve Collins, Craig Sellars, and Brock Pierce.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Reeve Collins, Craig Sellars, and Brock Pierce",
+              "key": "A"
+            },
+            {
+              "content": "JL van der Velde and Craig Sellars",
+              "key": "B"
+            },
+            {
+              "content": "Brock Pierce",
+              "key": "C"
+            },
+            {
+              "content": "Reeve Collins and Craig Sellars",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d1000d21-7e6a-41cf-b5f9-7183f9e51d98",
+          "type": "SingleChoice",
+          "content": "In which year did Tether Limited issue its first stablecoin?",
+          "hint": "NoHint",
+          "explanation": "Tether Limited issued its first stablecoin in 2014, originally named Realcoin.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "In 2014",
+              "key": "A"
+            },
+            {
+              "content": "In 2015",
+              "key": "B"
+            },
+            {
+              "content": "In 2016",
+              "key": "C"
+            },
+            {
+              "content": "In 2017",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fe25f799-14d9-4381-b685-209b2a9cdfa4",
+          "type": "SingleChoice",
+          "content": "What is the stable asset that USDT is typically pegged to?",
+          "hint": "NoHint",
+          "explanation": "USDT is pegged to US dollar.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Gold",
+              "key": "A"
+            },
+            {
+              "content": "US dollar",
+              "key": "B"
+            },
+            {
+              "content": "Bitcoin",
+              "key": "C"
+            },
+            {
+              "content": "Ethereum",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "94139043-5530-46e2-98bb-24fc8b26794b",
+          "type": "SingleChoice",
+          "content": "In which year did Tether's Taiwanese banking partners end their relationship with the company?",
+          "hint": "NoHint",
+          "explanation": "Tether's Taiwanese banking partners end their relationship with the company in 2017, which jeopardized Tether's ability to facilitate the conversion of fiat currency to cryptocurrency and vice versa.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "In 2015",
+              "key": "A"
+            },
+            {
+              "content": "In 2016",
+              "key": "B"
+            },
+            {
+              "content": "In 2017",
+              "key": "C"
+            },
+            {
+              "content": "In 2018",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2c378743-d4a2-4f83-b3b2-899bf918f738",
+          "type": "SingleChoice",
+          "content": "Who is the current CEO of Tether Limited?",
+          "hint": "NoHint",
+          "explanation": "JL van der Velde is the current CEO of Tether Limited.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Reeve Collins",
+              "key": "A"
+            },
+            {
+              "content": "JL van der Velde",
+              "key": "B"
+            },
+            {
+              "content": "Craig Sellars",
+              "key": "C"
+            },
+            {
+              "content": "Brock Pierce",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "235c69d6-f26b-4872-9a43-1c67c6244bf7",
+          "type": "SingleChoice",
+          "content": "What is the main controversy surrounding Tether Limited and its affiliated exchange, Bitfinex?",
+          "hint": "All the options seem correct.",
+          "explanation": "Tether and Bitfinex have faced lot of criticism for price manipulation, lack of transparency and security issues.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The allegation of price manipulation",
+              "key": "A"
+            },
+            {
+              "content": "The lack of transparency and audits",
+              "key": "B"
+            },
+            {
+              "content": "Security and liquidity issues",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1c7c34d4-166d-4c24-b3c3-be8b4c430d8f",
+          "type": "SingleChoice",
+          "content": "How is USDT meant to be backed according to Tether Limited?",
+          "hint": "NoHint",
+          "explanation": "USDT is meant to be backed 1:1 by the stable asset, typically held in the form of US Treasury bills.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "1:1 by a basket of commodities such as gold and oil",
+              "key": "A"
+            },
+            {
+              "content": "1:1 by the stable asset, typically held in the form of US Treasury bills",
+              "key": "B"
+            },
+            {
+              "content": "1:1 by a basket of cryptocurrencies such as Bitcoin and Ethereum",
+              "key": "C"
+            },
+            {
+              "content": "1:1 by a basket of fiat currencies such as the US dollar, Euro, and Japanese yen",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "033cab52-dcd8-4672-a80e-d5317a4cf5cc",
+          "type": "SingleChoice",
+          "content": "What was the original name of Tether?",
+          "hint": "NoHint",
+          "explanation": "It was originally named as Realcoin.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Bitcoin",
+              "key": "A"
+            },
+            {
+              "content": "Litecoin",
+              "key": "B"
+            },
+            {
+              "content": "Realcoin",
+              "key": "C"
+            },
+            {
+              "content": "USDT",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "6be256bf-a6b4-4e3b-bf76-b6942c4075ba",
+          "type": "SingleChoice",
+          "content": "On which network was Tether originally built?",
+          "hint": "NoHint",
+          "explanation": "Tether was originally built on the Bitcoin Network.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Ethereum",
+              "key": "A"
+            },
+            {
+              "content": "Solana",
+              "key": "B"
+            },
+            {
+              "content": "Polygon",
+              "key": "C"
+            },
+            {
+              "content": "Bitcoin",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c8b21f0e-caf9-47cd-b9c1-056a6517ba02",
+          "type": "SingleChoice",
+          "content": "Why were Tether's Taiwanese banking partners concerned about the stablecoin?",
+          "hint": "NoHint",
+          "explanation": "Tether's Taiwanese banking partners grew concerned about the lack of know-your-customer (KYC) checks and other safeguards as the stablecoin circulated on various blockchains. They ended their relationship with Tether in 2017, which jeopardized Tether's ability to facilitate the conversion of fiat currency to cryptocurrency and vice versa.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "They were worried about the volatility of the stablecoin",
+              "key": "A"
+            },
+            {
+              "content": "They believed that Tether Limited was engaging in market manipulation",
+              "key": "B"
+            },
+            {
+              "content": "They were concerned about the security of the stablecoin",
+              "key": "C"
+            },
+            {
+              "content": "They were concerned about the lack of know-your-customer (KYC) checks and other safeguards as the stablecoin circulated on various blockchains",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
     }
   ]
 }

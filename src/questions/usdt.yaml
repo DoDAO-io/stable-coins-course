@@ -1,0 +1,170 @@
+- uuid: 0ba7d128-2865-4cf3-a81b-76823f99fade
+  type: SingleChoice
+  content: Who founded Tether Limited?
+  hint: Three founders
+  explanation: Tether Limited was founded by Reeve Collins, Craig Sellars, and Brock Pierce.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: Reeve Collins, Craig Sellars, and Brock Pierce
+      key: A
+    - content: JL van der Velde and Craig Sellars
+      key: B
+    - content: Brock Pierce
+      key: C
+    - content: Reeve Collins and Craig Sellars
+      key: D
+- uuid: d1000d21-7e6a-41cf-b5f9-7183f9e51d98
+  type: SingleChoice
+  content: In which year did Tether Limited issue its first stablecoin?
+  hint: NoHint
+  explanation: Tether Limited issued its first stablecoin in 2014, originally named Realcoin.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: In 2014
+      key: A
+    - content: In 2015
+      key: B
+    - content: In 2016
+      key: C
+    - content: In 2017
+      key: D
+- uuid: fe25f799-14d9-4381-b685-209b2a9cdfa4
+  type: SingleChoice
+  content: What is the stable asset that USDT is typically pegged to?
+  hint: NoHint
+  explanation: USDT is pegged to US dollar.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Gold
+      key: A
+    - content: US dollar
+      key: B
+    - content: Bitcoin
+      key: C
+    - content: Ethereum
+      key: D
+- uuid: 94139043-5530-46e2-98bb-24fc8b26794b
+  type: SingleChoice
+  content: In which year did Tether's Taiwanese banking partners end their relationship with the company?
+  hint: NoHint
+  explanation: Tether's Taiwanese banking partners end their relationship with the company in 2017, which jeopardized Tether's ability to facilitate the conversion of fiat currency to cryptocurrency and vice versa.
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: In 2015
+      key: A
+    - content: In 2016
+      key: B
+    - content: In 2017
+      key: C
+    - content: In 2018
+      key: D
+- uuid: 2c378743-d4a2-4f83-b3b2-899bf918f738
+  type: SingleChoice
+  content: Who is the current CEO of Tether Limited?
+  hint: NoHint
+  explanation: JL van der Velde is the current CEO of Tether Limited.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Reeve Collins
+      key: A
+    - content: JL van der Velde
+      key: B
+    - content: Craig Sellars
+      key: C
+    - content: Brock Pierce
+      key: D
+- uuid: 235c69d6-f26b-4872-9a43-1c67c6244bf7
+  type: SingleChoice
+  content: What is the main controversy surrounding Tether Limited and its affiliated exchange, Bitfinex?
+  hint: All the options seem correct.
+  explanation: Tether and Bitfinex have faced lot of criticism for price manipulation, lack of transparency and security issues.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: The allegation of price manipulation
+      key: A
+    - content: The lack of transparency and audits
+      key: B
+    - content: Security and liquidity issues
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 1c7c34d4-166d-4c24-b3c3-be8b4c430d8f
+  type: SingleChoice
+  content: How is USDT meant to be backed according to Tether Limited?
+  hint: NoHint
+  explanation: USDT is meant to be backed 1:1 by the stable asset, typically held in the form of US Treasury bills.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: 1:1 by a basket of commodities such as gold and oil
+      key: A
+    - content: 1:1 by the stable asset, typically held in the form of US Treasury bills
+      key: B
+    - content: 1:1 by a basket of cryptocurrencies such as Bitcoin and Ethereum
+      key: C
+    - content: 1:1 by a basket of fiat currencies such as the US dollar, Euro, and Japanese yen
+      key: D
+- uuid: 033cab52-dcd8-4672-a80e-d5317a4cf5cc
+  type: SingleChoice
+  content: What was the original name of Tether?
+  hint: NoHint
+  explanation: It was originally named as Realcoin.
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Bitcoin
+      key: A
+    - content: Litecoin
+      key: B
+    - content: Realcoin
+      key: C
+    - content: USDT
+      key: D
+- uuid: 6be256bf-a6b4-4e3b-bf76-b6942c4075ba
+  type: SingleChoice
+  content: On which network was Tether originally built?
+  hint: NoHint
+  explanation: Tether was originally built on the Bitcoin Network.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: Ethereum
+      key: A
+    - content: Solana
+      key: B
+    - content: Polygon
+      key: C
+    - content: Bitcoin
+      key: D
+- uuid: c8b21f0e-caf9-47cd-b9c1-056a6517ba02
+  type: SingleChoice
+  content: Why were Tether's Taiwanese banking partners concerned about the stablecoin?
+  hint: NoHint
+  explanation: Tether's Taiwanese banking partners grew concerned about the lack of know-your-customer (KYC) checks and other safeguards as the stablecoin circulated on various blockchains. They ended their relationship with Tether in 2017, which jeopardized Tether's ability to facilitate the conversion of fiat currency to cryptocurrency and vice versa.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: They were worried about the volatility of the stablecoin
+      key: A
+    - content: They believed that Tether Limited was engaging in market manipulation
+      key: B
+    - content: They were concerned about the security of the stablecoin
+      key: C
+    - content: They were concerned about the lack of know-your-customer (KYC) checks and other safeguards as the stablecoin circulated on various blockchains
+      key: D
