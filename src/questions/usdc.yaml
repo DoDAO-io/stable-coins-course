@@ -1,0 +1,171 @@
+- uuid: 5dd81515-c11d-4403-99ef-43023d6940bb
+  type: SingleChoice
+  content: What is USDC?
+  hint: A stablecoin
+  explanation: USDC is a stablecoin that is pegged to the value of the US dollar.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: A stablecoin that is pegged to the value of the US dollar
+      key: A
+    - content: A cryptocurrency exchange based in San Francisco
+      key: B
+    - content: A trading platform for institutional investors
+      key: C
+    - content: A peer-to-peer payment platform
+      key: D
+- uuid: f0504eb2-bcdc-4706-ade7-707e666200b7
+  type: MultipleChoice
+  content: What is the main issue that USDC was designed to address?
+  hint: NoHint
+  explanation: Volatility and the difficulty of converting between fiat currencies and cryptocurrencies are the main issues that USDC was designed to address.
+  answerKeys:
+    - A
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Volatility
+      key: A
+    - content: The difficulty of converting between fiat currencies and cryptocurrencies
+      key: B
+    - content: Accessibility
+      key: C
+    - content: Transfer speeds
+      key: D
+- uuid: 3cb61fb5-a845-4709-ba31-e19df711855e
+  type: SingleChoice
+  content: What happens when a company deposits USD into their Circle Account?
+  hint: NoHint
+  explanation: Circle credits the company with the corresponding amount of USDC.
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Circle burns the corresponding amount of USDC
+      key: A
+    - content: Circle transfers the corresponding amount of USDC to Binance
+      key: B
+    - content: Circle credits the company with the corresponding amount of USDC
+      key: C
+    - content: Circle credits the company with half amount of USDC
+      key: D
+- uuid: e6fd1e1e-7ee3-487d-af49-e0415b5dfcef
+  type: SingleChoice
+  content: What is an attestation from an accounting firm similar to?
+  hint: NoHint
+  explanation: An attestation from an accounting firm is similar to an audit in that it provides assurance around specific statements or criteria.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: Exchange
+      key: A
+    - content: Bank statement
+      key: B
+    - content: Reserve report
+      key: C
+    - content: Audit
+      key: D
+- uuid: 17250c0a-3947-4c9e-82c0-0f797e3c546b
+  type: SingleChoice
+  content: What is the purpose of USDC?
+  hint: All the options seem correct.
+  explanation: explanation
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: To provide a stable form of cryptocurrency that is pegged to the value of the US dollar
+      key: A
+    - content: To facilitate faster and cheaper global money transfers
+      key: B
+    - content: To increase financial inclusion for people without access to bank accounts
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 38858955-7ebb-4137-b8bb-92a8338f7aec
+  type: SingleChoice
+  content: Who are the founders of the CENTRE consortium, which created USDC?
+  hint: NoHint
+  explanation: Circle and Coinbase are the founders of the CENTRE consortium.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: Circle and Coinbase
+      key: A
+    - content: BlackRock and Bank of New York Mellon
+      key: B
+    - content: Binance and Coinbase
+      key: C
+    - content: Ethereum and Ripple
+      key: D
+- uuid: 39836c9b-78a1-474a-a25e-6942fc4dd13e
+  type: SingleChoice
+  content: What are USDC reserves made up of?
+  hint: NoHint
+  explanation: USDC is fully backed by the equivalent value of U.S. dollar-denominated assets and is held in the management and custody of leading U.S. financial institutions, including BlackRock and Bank of New York Mellon. The USDC reserve consists of cash and short-dated U.S. government obligations, specifically U.S. Treasuries with maturities of three months or less.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: Cash and short-dated U.S. government obligations, specifically U.S. Treasuries with maturities of 3 months or less
+      key: A
+    - content: A combination of cryptocurrencies and traditional fiat currencies
+      key: B
+    - content: A basket of commodities and precious metals
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 098fbad5-9699-40e8-a804-52d3a1c51efb
+  type: SingleChoice
+  content: Who attests the monthly reserve reports for USDC?
+  hint: NoHint
+  explanation: explanation
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Binance
+      key: A
+    - content: Tether
+      key: B
+    - content: Grant Thornton
+      key: C
+    - content: Circle
+      key: D
+- uuid: 22d39989-e9d7-46d9-bb89-6f2133c36d1e
+  type: SingleChoice
+  content: What blockchain was USDC initially built on?
+  hint: NoHint
+  explanation: USDC was built on Ethereum network.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Bitcoin
+      key: A
+    - content: Ethereum
+      key: B
+    - content: Ripple
+      key: C
+    - content: Cardano
+      key: D
+- uuid: 5e81c720-bd7c-4a3c-8f65-d60bad75de68
+  type: SingleChoice
+  content: Which of the following is NOT a characteristic of USDC?
+  hint: mining algorithm
+  explanation: USDC is not mined using a proof-of-work algorithm.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: It is built on the Ethereum blockchain
+      key: A
+    - content: It is pegged to the value of the US dollar
+      key: B
+    - content: It allows for fast and easy conversion between US dollars and cryptocurrencies
+      key: C
+    - content: It is mined using a proof-of-work algorithm
+      key: D
