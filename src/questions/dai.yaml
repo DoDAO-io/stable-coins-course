@@ -1,0 +1,149 @@
+- uuid: eadea988-9447-41a8-b071-199750b81925
+  type: SingleChoice
+  content: Who created DAI?
+  hint: Definitely not the US government
+  explanation: DAI was created by the MakerDAO project, which was launched in 2017 by Rune Christensen, the CEO of MakerDAO.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: The US government
+      key: A
+    - content: MakerDAO
+      key: B
+    - content: Satoshi Nakamoto
+      key: C
+    - content: Vitalik Buterin
+      key: D
+- uuid: 28156f57-3733-4934-8199-5c65a26f822d
+  type: SingleChoice
+  content: What is DAI primarily used for?
+  hint: NoHint
+  explanation: DAI is used in various ways, including as a medium of exchange, a store of value, and a collateral asset. It has gained widespread adoption in the cryptocurrency community and has been used in a number of decentralized finance (DeFi) applications.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: A medium of exchange
+      key: A
+    - content: A store of value
+      key: B
+    - content: A collateral asset
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 6115919e-358e-4d2c-936e-d50f08f384b3
+  type: SingleChoice
+  content: Is MakerDAO and the DAI stablecoin open-source?
+  hint: NoHint
+  explanation: MakerDAO is an open-source project that is maintained by a team of developers and a community of volunteers.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: Yes
+      key: A
+    - content: No
+      key: B
+- uuid: 6bacd29b-b431-48a6-82fb-50f31becf94f
+  type: SingleChoice
+  content: What did the security audit of the Dai Token (DAI) smart contract conclude about the smart contract's safety for deployment?
+  hint: NoHint
+  explanation: The audited smart contract was determined to be safe to deploy, with only low severity issues found during the audit.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: It had no issues
+      key: A
+    - content: It had only low severity issues
+      key: B
+    - content: It had one critical security issue
+      key: C
+    - content: It had two low severity issues and one critical security issue
+      key: D
+- uuid: eccb11dd-0c00-45ec-8a0d-76a3c2b0bbdf
+  type: SingleChoice
+  content: What is the Dai Savings Rate (DSR)?
+  hint: NoHint
+  explanation: The Dai Savings Rate (DSR) is an interest rate that is applied to deposits of the cryptocurrency, Dai (DAI).
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: A way for users to save DAI
+      key: A
+    - content: A way to maintain the value of DAI at or near one US dollar
+      key: B
+    - content: A way to manage CDPs
+      key: C
+    - content: A way to mint and burn DAI
+      key: D
+- uuid: fb33cdc1-bb20-4574-8256-296da27f6bfe
+  type: SingleChoice
+  content: What is the MCD_DAI_JOIN adapter contract responsible for in the Maker Protocol?
+  hint: NoHint
+  explanation: The MCD_DAI_JOIN adapter contract in the Maker Protocol is authorized to call the mint and burn functions of the DAI token in order to increase or decrease the total supply of DAI. 
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Managing Collateralized Debt Positions (CDPs)
+      key: A
+    - content: Saving DAI
+      key: B
+    - content: Minting and burning DAI
+      key: C
+    - content: Sending DAI to others
+      key: D
+- uuid: d6220391-fe24-4ccb-be23-33e2f49a5e75
+  type: SingleChoice
+  content: What was the main focus of the security audit of the Dai Token (DAI) smart contract?
+  hint: NoHint
+  explanation: In 2019, Callisto Network Security conducted a security audit of the Dai Token (DAI) smart contract which identified four issues, including three of low severity and one of owner privileges (which could potentially be risky for investors). No critical security issues were discovered. The audit specifically identified known vulnerabilities of ERC-20 tokens, the ability for the contract owner to block transferring, a missing event in ERC20 compliance, and the need to check input addresses for empty values. Overall, the audited smart contract was determined to be safe to deploy, with only low severity issues found during the audit.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: Identifying critical security issues
+      key: A
+    - content: Identifying low severity issues
+      key: B
+    - content: Identifying owner privileges
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 5bbc7ae1-46b4-40ba-a59e-827ab9a480d7
+  type: SingleChoice
+  content: How does the decentralized nature of DAI benefit users?
+  hint: NoHint
+  explanation: The decentralized nature allows DAI to be free from the influence of governments or financial institutions. It also makes DAI more resistant to censorship or interference.
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: It allows DAI to be free from the influence of governments or financial institutions
+      key: A
+    - content: It makes DAI more resistant to censorship or interference
+      key: B
+    - content: Both A and B
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 24dc0f23-55df-4e94-92b8-e5f3941d8240
+  type: SingleChoice
+  content: Using a surplus of collateral to back DAI is also known as?
+  hint: surplus => over
+  explanation: Over-collateralization is the provision of collateral that is worth more than enough to cover potential losses in cases of default.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Collateralization
+      key: A
+    - content: Overcollateralization
+      key: B
+    - content: UnderCollaterilzation
+      key: C
+    - content: Liquidation
+      key: D
