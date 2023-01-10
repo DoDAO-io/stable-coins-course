@@ -24,8 +24,24 @@ topics:
       This chapter talks about USDC.
     explanations: usdc.yaml
     questions: usdc.yaml
-    status: In Progress
-    completionWeek: In Progress
+    status: Completed
+    completionWeek: Completed
+  - title: USDT
+    key: usdt
+    details: >
+      This chapter talks about USDT.
+    explanations: usdt.yaml
+    questions: usdt.yaml
+    status: Completed
+    completionWeek: Completed
+  - title: DAI
+    key: dai
+    details: >
+      This chapter talks about DAI.
+    explanations: dai.yaml
+    questions: dai.yaml
+    status: Completed
+    completionWeek: Completed
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!
