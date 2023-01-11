@@ -20,22 +20,20 @@
     Tether Limited issues USDT by "minting" new tokens and adding them to circulation. This is done through a process called "issuance," which involves Tether Limited sending the stablecoin to exchanges or other approved parties in exchange for an equal value of the stable asset (e.g., US dollars). Tether Limited can also "burn" USDT by removing them from circulation. This is typically done when the company receives the stablecoin back from exchanges or other approved parties in exchange for the stable asset.
 
 
-    ### Transparency and Audits
-
-
-    Tether Limited has faced criticism over its lack of transparency, as the company has not undergone a full audit to prove that it has the necessary reserves to back all of the USDT in circulation. In 2017, Tether Limited hired accounting firm Friedman LLP to conduct an audit, but the audit was never completed and the relationship between the two companies ended in January 2018. 
-
-
-    Tether has been publishing quarterly audit [reports](https://tether.to/en/transparency/#reports) since 2021 with the help of firms such as Moore, Mha Cayman and BDO. However, most of the companies feel that those are just attestation which don't give the full picture.
-
-
+    
     ### How They are Backed
 
 
     USDT is meant to be backed 1:1 by the stable asset, meaning that for every USDT in circulation, Tether Limited is supposed to hold an equivalent value of the stable asset in reserve. According to Tether Limited, the stable asset backing USDT is typically held in the form of US Treasury bills, which are low-risk, short-term debt securities issued by the US government. However, as mentioned above, the company has not undergone a full audit to prove that it has the necessary reserves to back all of the USDT in circulation.
 
 
-    ### Issues and Hacks
+    ### Transparency and Issues
+
+
+    Tether Limited has faced criticism over its lack of transparency, as the company has not undergone a full audit to prove that it has the necessary reserves to back all of the USDT in circulation. In 2017, Tether Limited hired accounting firm Friedman LLP to conduct an audit, but the audit was never completed and the relationship between the two companies ended in January 2018. 
+
+
+    Tether has been publishing quarterly audit [reports](https://tether.to/en/transparency/#reports) since 2021 with the help of firms such as Moore, Mha Cayman and BDO. However, most of the companies feel that those are just attestation which don't give the full picture.
 
 
     Tether Limited and its affiliated exchange, Bitfinex, have faced several controversies over the years. One of the main controversies is the allegation of price manipulation. In April 2017, the US Commodity Futures Trading Commission (CFTC) issued subpoenas to Tether Limited and Bitfinex as part of an investigation into potential market manipulation. In 2018, researchers Griffin and Shams published a study suggesting that Bitcoin prices increased after Tether minted new USDT during market downturns, potentially as an attempt at market manipulation. However, this conclusion was disputed by Bitfinex, the cryptocurrency exchange that is affiliated with Tether, and subsequent researchers have found little to no evidence that Tether's issuance of USDT influenced Bitcoin prices.
@@ -50,9 +48,22 @@
     In September 2022, Bitfinex and Tether (referred to in court records as B/T) were ordered by the New York District Court to produce documents showing the backing of USDT, the outcome of which is still pending. The court also ordered B/T to stop loaning out Tether's stablecoins and to provide a full accounting of the Tether reserve. You can read more about it [here](https://cointelegraph.com/news/new-york-judge-orders-tether-to-document-usdt-backing).
 
 
-    ### Good and Bad News
+    ### Growth and adoption
+
 
     Despite the controversies surrounding Tether Limited and Bitfinex, USDT has become one of the most widely used stablecoins in the cryptocurrency market. It is accepted on a wide range of exchanges and is often used as a "bridge currency" to facilitate trades between different cryptocurrencies. This widespread adoption has helped to make USDT a key player in the cryptocurrency market.
+
+
+    The adoption of USDT has grown rapidly since its inception, with its market capitalization increasing from around [$10 million in 2015 to over $83 billion as of 2022](https://coinmarketcap.com/currencies/tether/). As more people become familiar with the benefits of stablecoins, and as the cryptocurrency ecosystem continues to mature, it is likely that the use and adoption of USDT will continue to grow.
+
+
+    At present, Tether (USDT) is the dominant stablecoin, with a [circulating supply of around $66 billion](https://coinmarketcap.com/view/stablecoin/). Its closest competitor is Circle's USDC, which has a circulation of approximately $44 billion. In terms of market value, Bitcoin and Ether are the only cryptocurrencies that surpass USDT. Investors have the option of using stablecoins as a means of easily entering the cryptocurrency market, or as a tool for trading between different tokens. The stability in their value makes transactions more streamlined, and since USDT is more widely available than other stablecoins, it offers more options for converting it into other cryptocurrencies.
+
+
+    The significance of USDT lies in its wide accessibility and versatility. It can be exchanged for over 4,000 other currencies on centralized exchanges and potentially even more on decentralized exchanges that don't always accept regular dollars. This makes it almost impossible for traders to actively participate in the crypto market without encountering USDT at some point. Should there be any issues that compromise the appeal or usage of USDT, it could trigger a ripple effect across the entire industry and significantly decrease trading volumes.
+
+
+    ### Good and Bad News
 
 
     However, the lack of transparency and audits has also led to concerns about the stability of USDT and the potential for fraud or mismanagement. Until Tether Limited undergoes a full audit and proves that it has the necessary reserves to back all of the USDT in circulation, these concerns are likely to continue.
@@ -63,3 +74,7 @@
 
       - `https://tether.to/en/`
       - `https://en.wikipedia.org/wiki/Tether_(cryptocurrency)`
+      - `https://cointelegraph.com/news/research-tether-bitfinex-manipulation-reason-behind-2017-bitcoin-price-highs`
+      - `https://www.investopedia.com/news/bitcoins-2017-rise-was-market-manipulation-tether-study/`
+      - `https://www.reuters.com/technology/tether-bitfinex-agree-pay-425-mln-fines-settle-us-cftc-charges-2021-10-15/`
+      - `https://coinmarketcap.com/view/stablecoin/`

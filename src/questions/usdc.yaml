@@ -70,7 +70,7 @@
 - uuid: 17250c0a-3947-4c9e-82c0-0f797e3c546b
   type: SingleChoice
   content: What is the purpose of USDC?
-  hint: All the options seem correct.
+  hint: NoHint
   explanation: explanation
   answerKeys:
     - D

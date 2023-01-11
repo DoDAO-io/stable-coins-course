@@ -79,7 +79,7 @@ Sub Topics: No Sub-Topics
 - [ ]  To increase financial inclusion for people without access to bank accounts
 - [x]  All of the above
   
-Hint: All the options seem correct.
+Hint: NoHint
          
 Explanation: explanation
 
