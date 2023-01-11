@@ -1,7 +1,7 @@
 - uuid: 0ba7d128-2865-4cf3-a81b-76823f99fade
   type: SingleChoice
   content: Who founded Tether Limited?
-  hint: Three founders
+  hint: NoHint
   explanation: Tether Limited was founded by Reeve Collins, Craig Sellars, and Brock Pierce.
   answerKeys:
     - A
@@ -86,7 +86,7 @@
 - uuid: 235c69d6-f26b-4872-9a43-1c67c6244bf7
   type: SingleChoice
   content: What is the main controversy surrounding Tether Limited and its affiliated exchange, Bitfinex?
-  hint: All the options seem correct.
+  hint: NoHint
   explanation: Tether and Bitfinex have faced lot of criticism for price manipulation, lack of transparency and security issues.
   answerKeys:
     - D
@@ -111,7 +111,7 @@
   choices:
     - content: 1:1 by a basket of commodities such as gold and oil
       key: A
-    - content: 1:1 by the stable asset, typically held in the form of US Treasury bills
+    - content: 1:1 by the liquid stable asset, like assets in the form is USD case or in the form of US Treasury bills
       key: B
     - content: 1:1 by a basket of cryptocurrencies such as Bitcoin and Ethereum
       key: C

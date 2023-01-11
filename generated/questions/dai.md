@@ -54,16 +54,16 @@ Sub Topics: No Sub-Topics
 
 ---
 
-##### What did the security audit of the Dai Token (DAI) smart contract conclude about the smart contract's safety for deployment?  
+##### Who is the CEO of MakerDAO?  
 
-- [ ]  It had no issues
-- [x]  It had only low severity issues
-- [ ]  It had one critical security issue
-- [ ]  It had two low severity issues and one critical security issue
+- [ ]  Jan Ludovicus van der Velde
+- [ ]  Satoshi Nakamoto
+- [ ]  Vitalik Buterin
+- [x]  Rune Christensen
   
 Hint: NoHint
          
-Explanation: The audited smart contract was determined to be safe to deploy, with only low severity issues found during the audit.
+Explanation: Rune Christensen is the founder and CEO of MakerDAO.
 
 Sub Topics: No Sub-Topics
  
@@ -72,7 +72,7 @@ Sub Topics: No Sub-Topics
 
 ##### What is the Dai Savings Rate (DSR)?  
 
-- [x]  A way for users to save DAI
+- [x]  A way for users to earn interest on DAI
 - [ ]  A way to maintain the value of DAI at or near one US dollar
 - [ ]  A way to manage CDPs
 - [ ]  A way to mint and burn DAI

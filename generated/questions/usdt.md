@@ -15,7 +15,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - [ ]  Brock Pierce
 - [ ]  Reeve Collins and Craig Sellars
   
-Hint: Three founders
+Hint: NoHint
          
 Explanation: Tether Limited was founded by Reeve Collins, Craig Sellars, and Brock Pierce.
 
@@ -95,7 +95,7 @@ Sub Topics: No Sub-Topics
 - [ ]  Security and liquidity issues
 - [x]  All of the above
   
-Hint: All the options seem correct.
+Hint: NoHint
          
 Explanation: Tether and Bitfinex have faced lot of criticism for price manipulation, lack of transparency and security issues.
 
@@ -107,7 +107,7 @@ Sub Topics: No Sub-Topics
 ##### How is USDT meant to be backed according to Tether Limited?  
 
 - [ ]  1:1 by a basket of commodities such as gold and oil
-- [x]  1:1 by the stable asset, typically held in the form of US Treasury bills
+- [x]  1:1 by the liquid stable asset, like assets in the form is USD case or in the form of US Treasury bills
 - [ ]  1:1 by a basket of cryptocurrencies such as Bitcoin and Ethereum
 - [ ]  1:1 by a basket of fiat currencies such as the US dollar, Euro, and Japanese yen
   

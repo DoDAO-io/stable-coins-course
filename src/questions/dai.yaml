@@ -47,20 +47,20 @@
       key: B
 - uuid: 6bacd29b-b431-48a6-82fb-50f31becf94f
   type: SingleChoice
-  content: What did the security audit of the Dai Token (DAI) smart contract conclude about the smart contract's safety for deployment?
+  content: Who is the CEO of MakerDAO?
   hint: NoHint
-  explanation: The audited smart contract was determined to be safe to deploy, with only low severity issues found during the audit.
+  explanation: Rune Christensen is the founder and CEO of MakerDAO.
   answerKeys:
-    - B
+    - D
   difficultyLevel: Low
   choices:
-    - content: It had no issues
+    - content: Jan Ludovicus van der Velde
       key: A
-    - content: It had only low severity issues
+    - content: Satoshi Nakamoto
       key: B
-    - content: It had one critical security issue
+    - content: Vitalik Buterin
       key: C
-    - content: It had two low severity issues and one critical security issue
+    - content: Rune Christensen
       key: D
 - uuid: eccb11dd-0c00-45ec-8a0d-76a3c2b0bbdf
   type: SingleChoice
@@ -71,7 +71,7 @@
     - A
   difficultyLevel: Low
   choices:
-    - content: A way for users to save DAI
+    - content: A way for users to earn interest on DAI
       key: A
     - content: A way to maintain the value of DAI at or near one US dollar
       key: B
