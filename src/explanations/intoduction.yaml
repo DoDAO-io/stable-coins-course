@@ -96,6 +96,28 @@
 
     ### Crypto Backed
 
+    Cryptocurrency-backed stablecoins are a type of digital asset that is backed
+    by other digital assets like BTC, ETH, or other tokens. In order to mint new
+    stablecoins, digital assets are locked up as collateral in smart contracts.
+    DAI from MakerDAO is a well-known example of a stablecoin that is backed by
+    cryptocurrency.
+
+
+    Since crypto prices can be volatile, stablecoins are overcollateralized to
+    ensure that the price stays as stable as possible. This means that a
+    stablecoin with a crypto asset backing of $1 might have an underlying asset
+    worth at least $2. If crypto prices fall, more crypto must be used to back
+    the stablecoin; otherwise, the stablecoins' value would decrease.
+
+
+    There can still be cases where the value of crypto falls and the collateral
+    value becomes lower than the optimal ratio. In these cases, platforms
+    liquidate the position of the borrower (the person who deposits collateral
+    to mint new stablecoins). Different platforms take different approaches to
+    liquidation, some selling the collateral at a fixed discount, and some using
+    American or Dutch options. The amount of collateral to be liquidated also
+    varies from one platform to another.
+
 
     ### Commodity Backed
 
