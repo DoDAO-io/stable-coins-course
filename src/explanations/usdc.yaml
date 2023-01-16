@@ -36,12 +36,6 @@
     has. In addition, members of the consortium must meet certain standards,
     including licensing, compliance, technology, and accounting, in order to
     issue USDC.
-- title: References
-  shortTitle: References
-  key: usdc-references
-  details: |
-    `https://www.circle.com/en/usdc`
-    `https://www.centre.io/usdc`
 - key: working
   shortTitle: Working
   details: >
@@ -131,3 +125,9 @@
     and exchange for market participants. On Jan 5, 2023, the 24-hour trading
     volume of USDC was $ 4 billion.
   title: Working
+- title: References
+  shortTitle: References
+  key: usdc-references
+  details: |
+    `https://www.circle.com/en/usdc`
+    `https://www.centre.io/usdc`
