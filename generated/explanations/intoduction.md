@@ -34,11 +34,25 @@ Stablecoin issuers earn revenue from investing the cash they receive from custom
 **It's important for users to understand how stablecoins are backed. What percentage of the backing is in cash, and what percentage is in investments? What types of investments are made by the issuer?**
 
 ### Crypto Backed
+Cryptocurrency-backed stablecoins are a type of digital asset that is backed by other digital assets like BTC, ETH, or other tokens. In order to mint new stablecoins, digital assets are locked up as collateral in smart contracts. DAI from MakerDAO is a well-known example of a stablecoin that is backed by cryptocurrency.
+
+Since crypto prices can be volatile, stablecoins are overcollateralized to ensure that the price stays as stable as possible. This means that a stablecoin with a crypto asset backing of $1 might have an underlying asset worth at least $2. If crypto prices fall, more crypto must be used to back the stablecoin; otherwise, the stablecoins' value would decrease.
+
+There can still be cases where the value of crypto falls and the collateral value becomes lower than the optimal ratio. In these cases, platforms liquidate the position of the borrower (the person who deposits collateral to mint new stablecoins). Different platforms take different approaches to liquidation, some selling the collateral at a fixed discount, and some using American or Dutch options. The amount of collateral to be liquidated also varies from one platform to another.
 
 ### Commodity Backed
+Commodity-backed stablecoins are similar to fiat-backed stablecoins in that they are backed by physical commodities such as gold, silver, or oil. Even real estate can be used as collateral for commodity-backed stablecoins. The coins may or may not be redeemable for the physical asset. In a sense, commodity-backed stablecoins are a digital representation of a valuable real-world asset.
+
+For those who find it difficult to invest in literal precious commodities, commodity-backed stablecoins can be a useful alternative. These coins are backed by commodities like gold, which gives them the same value as the collateral. They can be liquidated when desired, and because they're not as volatile as fiat or cryptocurrencies, they can be a safer investment.
 
 ### Algorithmic
+The "two-coin" system is a typical algorithmic stablecoin structure in which one coin is used to "absorb" market volatility, and the other strives to keep the peg. 
 
-## Why so many types?
-Newcomers entering the crypto might be perplexed as to why there are so many type of stable coins as ultimately the do the same thing that is represent a stable currency like USD on blockchain. 
+Lets assume there are two tokens `A_USD`, and `ALGO`. `A_USD` value remains $1 and `ALGO` is balancer token which is sold or bought to maintain the peg of  `A_USD` at $1
+
+When the `A_USD` supply is too small and demand for it is too high, the price of `A_USD` goes above $1. To bring `A_USD` back to its peg, the protocol lets users trade 1 `A_USD` of `ALGO` for 1 `A_USD`. This trade burns 1 USD of `ALGO` and mints 1 `A_USD`, which users can sell for 1.01 USD and pocket a profit of 1 cent. It doesn’t sound like a lot, but these profits add up when done in large quantities.
+
+When the supply is too large and demand is too low, the opposite happens: The price of `A_USD` goes below $1. So the protocol lets users do the opposite as above: Users can buy 1 `A_USD` for 0.99 USD, then trade 1 `A_USD` for 1 USD of `ALGO`. The trade burns 1 `A_USD` and mints 1 USD of `ALGO`, netting the arbitrage trader a profit of .01 `A_USD`.
+
+This is how the price of `A_USD` is maintained at $1 USD 
  

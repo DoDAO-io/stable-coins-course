@@ -143,24 +143,24 @@
     keep the peg. 
 
 
-    Lets assume there are two tokens A_USD, and ALGO. A_USD value remains $1 and
-    ALGO is balancer token which is sold or bought to maintain the peg of  A_USD
+    Lets assume there are two tokens `A_USD`, and `ALGO`. `A_USD` value remains $1 and
+    `ALGO` is balancer token which is sold or bought to maintain the peg of  `A_USD`
     at $1
 
 
-    When the A_USD supply is too small and demand for it is too high, the price
-    of A_USD goes above $1. To bring A_USD back to its peg, the protocol lets
-    users trade 1 A_USD of ALGO for 1 A_USD. This trade burns 1 USD of ALGO and
-    mints 1 A_USD, which users can sell for 1.01 USD and pocket a profit of 1
+    When the `A_USD` supply is too small and demand for it is too high, the price
+    of `A_USD` goes above $1. To bring `A_USD` back to its peg, the protocol lets
+    users trade 1 `A_USD` of `ALGO` for 1 `A_USD`. This trade burns 1 USD of `ALGO` and
+    mints 1 `A_USD`, which users can sell for 1.01 USD and pocket a profit of 1
     cent. It doesn’t sound like a lot, but these profits add up when done in
     large quantities.
 
 
     When the supply is too large and demand is too low, the opposite happens:
-    The price of A_USD goes below $1. So the protocol lets users do the opposite
-    as above: Users can buy 1 A_USD for 0.99 USD, then trade 1 A_USD for 1 USD
-    of ALGO. The trade burns 1 A_USD and mints 1 USD of ALGO, netting the
-    arbitrage trader a profit of .01 A_USD.
+    The price of `A_USD` goes below $1. So the protocol lets users do the opposite
+    as above: Users can buy 1 `A_USD` for 0.99 USD, then trade 1 `A_USD` for 1 USD
+    of `ALGO`. The trade burns 1 `A_USD` and mints 1 USD of `ALGO`, netting the
+    arbitrage trader a profit of .01 `A_USD`.
 
 
-    This is how the price of A_USD is maintained at $1 USD
+    This is how the price of `A_USD` is maintained at $1 USD
