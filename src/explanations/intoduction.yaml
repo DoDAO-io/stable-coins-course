@@ -160,7 +160,7 @@
     The price of A_USD goes below $1. So the protocol lets users do the opposite
     as above: Users can buy 1 A_USD for 0.99 USD, then trade 1 A_USD for 1 USD
     of ALGO. The trade burns 1 A_USD and mints 1 USD of ALGO, netting the
-    arbitrage trader a profit of .01 UST.
+    arbitrage trader a profit of .01 A_USD.
 
 
     This is how the price of A_USD is maintained at $1 USD
