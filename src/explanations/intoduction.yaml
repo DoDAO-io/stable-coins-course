@@ -143,24 +143,41 @@
     keep the peg. 
 
 
-    Lets assume there are two tokens `A_USD`, and `ALGO`. `A_USD` value remains $1 and
-    `ALGO` is balancer token which is sold or bought to maintain the peg of  `A_USD`
-    at $1
+    Lets assume there are two tokens `A_USD`, and `ALGO`. `A_USD` value remains
+    $1 and `ALGO` is balancer token which is sold or bought to maintain the peg
+    of  `A_USD` at $1
 
 
-    When the `A_USD` supply is too small and demand for it is too high, the price
-    of `A_USD` goes above $1. To bring `A_USD` back to its peg, the protocol lets
-    users trade 1 `A_USD` of `ALGO` for 1 `A_USD`. This trade burns 1 USD of `ALGO` and
-    mints 1 `A_USD`, which users can sell for 1.01 USD and pocket a profit of 1
-    cent. It doesn’t sound like a lot, but these profits add up when done in
-    large quantities.
+    When the `A_USD` supply is too small and demand for it is too high, the
+    price of `A_USD` goes above $1. To bring `A_USD` back to its peg, the
+    protocol lets users trade 1 `A_USD` of `ALGO` for 1 `A_USD`. This trade
+    burns 1 USD of `ALGO` and mints 1 `A_USD`, which users can sell for 1.01 USD
+    and pocket a profit of 1 cent. It doesn’t sound like a lot, but these
+    profits add up when done in large quantities.
 
 
     When the supply is too large and demand is too low, the opposite happens:
-    The price of `A_USD` goes below $1. So the protocol lets users do the opposite
-    as above: Users can buy 1 `A_USD` for 0.99 USD, then trade 1 `A_USD` for 1 USD
-    of `ALGO`. The trade burns 1 `A_USD` and mints 1 USD of `ALGO`, netting the
-    arbitrage trader a profit of .01 `A_USD`.
+    The price of `A_USD` goes below $1. So the protocol lets users do the
+    opposite as above: Users can buy 1 `A_USD` for 0.99 USD, then trade 1
+    `A_USD` for 1 USD of `ALGO`. The trade burns 1 `A_USD` and mints 1 USD of
+    `ALGO`, netting the arbitrage trader a profit of .01 `A_USD`.
 
 
     This is how the price of `A_USD` is maintained at $1 USD
+- key: stablecoin-trilemma
+  shortTitle: Trilemma
+  details: >-
+    A stablecoin must now strike a balance between three major objectives,
+    namely, price stability, decentralization, and capital efficiency. A
+    stablecoin's principal objective and goal are to maintain a stable value
+    correlated to the value of another asset, such as a fiat currency. Various
+    price-stability mechanisms can be used to attain this price stability. The
+    stablecoin's issuer frequently requests collateral, which may be in the form
+    of real money or digital assets.
+
+
+    The more effectively the stablecoin achieves its goal, the lower its
+    achieved volatility. However, the majority of stablecoin designs trade off
+    either the system's decentralization or its capital efficiency in order to
+    attain great price stability.
+  title: Stablecoin Trilemma
