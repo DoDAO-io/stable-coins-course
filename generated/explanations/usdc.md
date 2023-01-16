@@ -6,8 +6,6 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## USDC
  
  **USD Coin**        
-### About
-
 USD Coin (USDC) is a stablecoin that is pegged to the value of the US dollar. It was created in 2018 by Circle and Coinbase through a partnership called the CENTRE consortium. USDC is an ERC-20 token, which means it is built on the Ethereum blockchain and follows a set of standardized protocols. It allows users to send US dollars over the internet and on public blockchains, giving them greater accessibility and faster transfer speeds. In addition, USDC can be easily converted back to US dollars at any time.
 
 
@@ -18,8 +16,8 @@ Coinbase is a San Francisco-based cryptocurrency exchange that was founded in 20
 
 
 USDC was developed to address two main issues with other cryptocurrencies: volatility and the difficulty of converting between fiat currencies and cryptocurrencies. To maintain stability and transparency, USDC is fully backed by US dollars held in reserve, and the CENTRE consortium publishes regular reports on the total supply of USDC and the amount of backing it has. In addition, members of the consortium must meet certain standards, including licensing, compliance, technology, and accounting, in order to issue USDC.
-
-
+ 
+ **Working**        
 ### Mint and Burn
 
 
