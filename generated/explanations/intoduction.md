@@ -9,7 +9,10 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 One of the most promising benefits of blockchain technology is its ability to provide a global financial  system that can settle payments within seconds. A strong and stable global currency is an essential part  of a healthy financial system, and over the past few years we've seen many innovative projects come up with  ideas for creating tokens that are equivalent to USD or other currencies on the blockchain. Some of these projects  have failed, but a few have survived and proven to be very resilient.
 
-Stablecoins are seen as a useful tool for a number of reasons: - **Improving cross-border transactions** : Stablecoins can facilitate low-cost, fast and cross-border  transactions with high security and reduced complexity compared to traditional methods.
+Stablecoins are seen as a useful tool for a number of reasons: There are a few key reasons why stablecoins are seen as a useful tool:
+- **Improving cross-border transactions**: Stablecoins can help facilitate low-cost, fast, and secure cross-border transactions while reducing complexity compared to traditional methods.
+- **Entry Point**: Newcomers to the crypto world often want a stable way to store their money, similar to what  they're used to with banks. Stablecoins offer a more predictable and stable path for these people.
+- **Improving cross-border transactions** : Stablecoins can facilitate low-cost, fast and cross-border  transactions with high security and reduced complexity compared to traditional methods.
 - **Entry Point** : New comers to crypto want a stable way of storing their money just like they do with banks.
  Stablecoins offer a more stable and predicable path to the new comers.  
 
