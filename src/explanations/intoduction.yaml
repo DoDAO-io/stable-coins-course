@@ -165,8 +165,9 @@
 
     This is how the price of `A_USD` is maintained at $1 USD
 - key: stablecoin-trilemma
+  title: Stablecoin Trilemma
   shortTitle: Trilemma
-  details: >-
+  details: >+
     A stablecoin must now strike a balance between three major objectives,
     namely, price stability, decentralization, and capital efficiency. A
     stablecoin's principal objective and goal are to maintain a stable value
@@ -180,4 +181,17 @@
     achieved volatility. However, the majority of stablecoin designs trade off
     either the system's decentralization or its capital efficiency in order to
     attain great price stability.
-  title: Stablecoin Trilemma
+
+
+
+    A trilemma's inherent property is that none of the three objectives can ever
+    be accomplished concurrently. The primary goal of stablecoins is still price
+    stability. The peg has been held pretty successfully over the past few years
+    by centralized fiat-backed & decentralized overcollateralized stablecoins.
+    However, each makes a significant concession in one of the other two
+    dimensions of the trilemma. So far, a wide range of design strategies has
+    been used to address the trilemma and attain all three desired features.
+    Some of these algorithmic stablecoins were able to solve the trilemma for a
+    brief period of time until the market's workings once more exposed their
+    weaknesses.
+
