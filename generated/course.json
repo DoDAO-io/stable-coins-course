@@ -32,7 +32,7 @@
         {
           "key": "type-of-stablecoins",
           "shortTitle": "Types",
-          "details": "## Types of Stablecoins\n### Fiat Backed\n\n### Crypto Backed\n\n### Commodity Backed\n\n### Algorithmic\n\n## Why so many types?\nNewcomers entering the crypto might be perplexed as to why there are so many type of stable coins as ultimately the do the same thing that is represent a stable currency like USD on blockchain.",
+          "details": "## Types of Stablecoins\nIn the last few years many stablecoin projects got spun up and each taking a different approach of representing the USD on blockchain. \n\n### Fiat Backed\n\n### Crypto Backed\n\n### Commodity Backed\n\n### Algorithmic\n\n## Why so many types?\nNewcomers entering the crypto might be perplexed as to why there are so many type of stable coins as ultimately the do the same thing that is represent a stable currency like USD on blockchain.",
           "title": "Stablecoin Types"
         }
       ],
