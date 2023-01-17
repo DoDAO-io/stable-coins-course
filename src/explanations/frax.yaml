@@ -235,6 +235,14 @@
   title: Price Stability
   shortTitle: Price Stability
   details: >-
+    The price stability of stable coins is an important factor to consider, as
+    we have seen that many algorithmic coins are not able to maintain a stable
+    peg and have resulted in failure. The hybrid model of FRAX uses the same
+    technique for minting and burning stable coins, but here the collateral is
+    also added or redeemed to the system and not just the absorption token
+    (FSX).
+
+
     At all times in order to mint new FRAX a user must place $1 worth of value
     into the system
 
