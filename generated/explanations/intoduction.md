@@ -76,5 +76,10 @@ For example, the team behind automated market maker Curve has released plans on 
  **Top Market Cap**        
 The market capitalisation of a project is the total number of tokens that exist multiplied by the value per token. Here are the stable coins that represent the top market capitalisation of stable coins:
 
-![Top Market Caps](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/market_caps.png) 
+![Top Market Caps](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/market_caps.png)
+
+`Source: https://ethereum.org/en/stablecoins/`
+
+
+ 
  

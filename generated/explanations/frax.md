@@ -31,7 +31,7 @@ FRAX utilizes a technique called "arbitrage" to maintain price stability. Arbitr
 
 ### Mint and Redeem
 
-![Mint and Redeem](https://github.com/DoDAO-io/stable-coins-course/blob/959308058d7b56bc3dab215b5d03d945572e1dc7/images/mint_redeem.png?raw=true)
+![Mint and Redeem](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/mint_redeem.png)
 `Refernce: https://docs.frax.finance/`
 
 The Frax Protocol's minting and redeeming system plays a crucial role in maintaining the stability of FRAX tokens. Users can mint FRAX by providing both collateral tokens (such as USDC) and governance tokens (FXS). The proportion of each token required is determined by the Frax [collateral ratio](https://docs.frax.finance/price-stability#collateral-ratio) (CR). For example, if the CR is 50%, a user can mint one dollar worth of FRAX by providing $0.50 worth of USDC and $0.50 worth of FXS. The same process reverses when a user chooses to redeem their FRAX for USDC and FXS.
@@ -42,13 +42,13 @@ When new FRAX tokens are minted, FXS is burned in proportion to the uncollateral
 
 All FRAX tokens are fungible with one another and entitled to the same proportion of collateral no matter what collateral ratio they were minted at. This system of equations describes the minting function of the Frax Protocol:
 
-![Mint](https://github.com/DoDAO-io/stable-coins-course/blob/959308058d7b56bc3dab215b5d03d945572e1dc7/images/mint.png?raw=true)
+![Mint](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/mint.png)
 `Refernce: https://docs.frax.finance/`
 
 
 Redeeming FRAX is done by rearranging the previous system of equations for simplicity, and solving for the units of collateral, Y, and the units of FXS, Z.
 
-![Redeem](https://github.com/DoDAO-io/stable-coins-course/blob/959308058d7b56bc3dab215b5d03d945572e1dc7/images/redeem.png?raw=true)
+![Redeem](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/redeem.png)
 `Refernce: https://docs.frax.finance/`
 
 
