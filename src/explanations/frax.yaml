@@ -53,62 +53,6 @@
     different gauges based on the votes of FXS stakers.
 
 
-    ### Mint and Redeem
-
-
-    ![Mint and
-    Redeem](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/mint_redeem.png)
-
-    `Refernce: https://docs.frax.finance/`
-
-
-    The Frax Protocol's minting and redeeming system plays a crucial role in
-    maintaining the stability of FRAX tokens. Users can mint FRAX by providing
-    both collateral tokens (such as USDC) and governance tokens (FXS). The
-    proportion of each token required is determined by the Frax [collateral
-    ratio](https://docs.frax.finance/price-stability#collateral-ratio) (CR). For
-    example, if the CR is 50%, a user can mint one dollar worth of FRAX by
-    providing $0.50 worth of USDC and $0.50 worth of FXS. The same process
-    reverses when a user chooses to redeem their FRAX for USDC and FXS.
-
-
-
-    When new FRAX tokens are minted, FXS is burned in proportion to the
-    uncollateralized amount. With a collateralization ratio of 50%, for every
-    FRAX token minted, $0.50 worth of FXS is burned. This decreases the
-    circulating supply of FXS and creates buy pressure for the token.
-    Conversely, when the protocol increases the collateralization ratio, more
-    FXS is minted and distributed, increasing the supply and exerting downward
-    pressure on the price. As usage and adoption of FRAX increases, more FRAX
-    tokens are minted than redeemed, resulting in a large amount of FXS being
-    burned and removed from circulation. This creates a resilient tokenomic
-    model for FXS that helps ensure price stability for FRAX.
-
-
-
-    All FRAX tokens are fungible with one another and entitled to the same
-    proportion of collateral no matter what collateral ratio they were minted
-    at. This system of equations describes the minting function of the Frax
-    Protocol:
-
-
-    ![Mint](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/mint.png)
-
-    `Refernce: https://docs.frax.finance/`
-
-
-
-    Redeeming FRAX is done by rearranging the previous system of equations for
-    simplicity, and solving for the units of collateral, Y, and the units of
-    FXS, Z.
-
-
-    ![Redeem](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/redeem.png)
-
-    `Refernce: https://docs.frax.finance/`
-
-
-
     ### Recollateralization and Buybacks
 
 
