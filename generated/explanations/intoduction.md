@@ -58,6 +58,7 @@ This is how the price of `A_USD` is maintained at $1 USD
  **Stablecoin Trilemma**        
 A stablecoin must maintain a delicate balance between three major objectives: price stability, decentralization, and capital efficiency. 
 
+![Trilemma](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/Trilemma.png)
 
 **Price Stability** - Price stability is one of the most important aspects for stablecoins. Fiat-based coins offer the highest price stability, followed by crypto-backed coins and then algorithmic stablecoins. In 2022, we saw the failure of the biggest algorithmic coin, UST.
 
@@ -75,5 +76,5 @@ For example, the team behind automated market maker Curve has released plans on 
  **Top Market Cap**        
 The market capitalisation of a project is the total number of tokens that exist multiplied by the value per token. Here are the stable coins that represent the top market capitalisation of stable coins:
 
- 
+![Top Market Caps](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/market_caps.png) 
  

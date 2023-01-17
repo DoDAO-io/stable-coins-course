@@ -70,6 +70,14 @@ topics:
     questions: dai.yaml
     status: Completed
     completionWeek: Completed
+  - title: Frax
+    key: frax
+    details: >
+      Frax stable coin
+    explanations: frax.yaml
+    questions: frax.yaml
+    status: Completed
+    completionWeek: Completed
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!
