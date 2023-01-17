@@ -2,8 +2,6 @@
   title: FRAX coin
   shortTitle: Introduction
   details: >
-    ### Introduction
-
     Many people are hesitant to adopt purely algorithmic coins because so many
     of them have failed over time. For example, UST was the biggest stable coin
     but it got depegged in 2022 and lost all its value. The main problem with
@@ -49,28 +47,8 @@
     refresh rate and step parameters can be adjusted through governance.
 
 
-    ### Recollateralization and Buybacks
-
-
-
-    The Frax Protocol has built-in mechanisms, known as recollateralization and
-    buybacks, to handle situations where additional collateral is needed or
-    excess collateral is present. When the total collateral value in USD falls
-    below the desired collateral ratio, recollateralization allows users to add
-    collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%.
-    This incentivizes arbitragers to close the gap and restore the collateral
-    ratio for FRAX. On the other hand, buybacks occur when there is more
-    collateral than needed to maintain the collateral ratio. In this case, FXS
-    holders can use FXS tokens to "buy back" the excess collateral, which is
-    then burned by the platform. This converts the excess value into FXS tokens,
-    maintaining the target collateral ratio. However, it's important to note
-    that there is no bonus rate for the buyback function.
-
-
 
     ### Transparency and Audits
-
-
 
     FRAX is committed to transparency and has undergone several independent
     audits to ensure the security and stability of its platform. The team
@@ -82,52 +60,10 @@
 
 
 
-    ### Performance Upgrades: veFXS and FRAX v2 AMOs
-
-
-
-    The Frax protocol has introduced several performance upgrades to its system,
-    including the veFXS and Frax v2 AMOs. The veFXS feature allows FXS holders
-    to lock up their tokens for a certain period of time in order to generate
-    voting escrow FXS and earn bonuses, governance rights, and AMO (Algorithmic
-    Market Operations Controller) profits. The longer the FXS tokens are locked,
-    the more bonuses awarded to the veFXS holders. Additionally, veFXS holders
-    are able to participate in Frax gauges and influence or direct FXS to
-    different FRAX gauges, a similar mechanism established by the Curve protocol
-    and its gauge system.
-
-
-
-    Recently, [Convex has partnered with the Frax
-    protocol](https://convexfinance.medium.com/december-update-protocol-expansion-cvx-eth-incentive-migration-2c9327b48259#0a3b)
-    to further align the two protocols' incentive programs, specifically around
-    locking veFXS into the CVX protocol. Convex was launched in [May
-    2021](https://convexfinance.medium.com/convex-finance-pre-launch-announcement-3630b2a428d0)
-    as a platform intended to boost CRV rewards and simplify staking CRV for
-    liquidity providers and stakers by creating an access point to CRV benefits
-    through its native CVX token. As a result, Convex began actively collecting
-    CRV and veCRV tokens as soon as it was introduced. By early summer 2021, it
-    had become the largest holder of veCRV tokens in the [Curve
-    Wars](https://medium.com/bityard/the-curve-wars-explained-2c4e9594617).
-    Curve Finance compensates liquidity providers with CRV tokens, granting
-    governance rights over which protocols' pools are supported through CRV
-    awards and fee sharing.Thus, Frax holds [≈21%](https://daocvx.com/) of CVX
-    giving them substantial governance power in the Convex protocol, which can
-    be thought of as a proxy for veCRV governance power and directing future CRV
-    rewards.
-
-
-
-    Furthermore, Frax has launched the algorithmic market operations modules, or
-    AMOs, which creates smoother operations for Frax by automating the movement
-    of FRAX and its collateral across the DeFi ecosystem. The Frax AMOs further
-    enable FRAX growth by leveraging Frax’s assets in a capital efficient way.
 
 
 
     ### Growth and Adoption
-
-
 
     One piece of good news for FRAX is the platform's growing user base and
     trading volume, which have steadily increased since its launch. The market
@@ -135,27 +71,6 @@
     $2.9B. As of 14th Jan, 2023 the market cap is at $1.02B. FRAX has also
     received positive attention from the DeFi community and has partnered with
     several well-known projects in the space, including Chainlink and Compound.
-
-
-
-    The Frax protocol offers a new and improved solution for stablecoins by
-    utilizing Automated Market Maker (AMM) technology. By combining the use of
-    FRAX stablecoins and FXS governance tokens, the protocol ensures trustless
-    stability, decentralization and scalability in the face of market
-    instability. Unlike other stablecoins such as Tether or DAI, FRAX eliminates
-    the risk of over-collateralization and sudden market fluctuations.
-
-
-
-    As the market adapts to the growing demands and challenges, the adoption of
-    crypto and stablecoins continues to rise. Among the latest innovations in
-    the crypto space, FRAX is leading the way with its unique
-    fractional-algorithmic approach to stability. To learn more about FRAX and
-    its approach, visit their [website](https://frax.finance/) as well as
-    [github](https://github.com/FraxFinance) and read their
-    [documentation](https://docs.frax.finance/v/en/), also you can follow them
-    on [Twitter](https://twitter.com/fraxfinance) and join their community on
-    [Telegram](https://t.me/fraxfinance).
 - key: price-stability
   title: Price Stability
   shortTitle: Price Stability
