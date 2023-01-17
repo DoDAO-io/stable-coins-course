@@ -55,4 +55,25 @@ When the `A_USD` supply is too small and demand for it is too high, the price of
 When the supply is too large and demand is too low, the opposite happens: The price of `A_USD` goes below $1. So the protocol lets users do the opposite as above: Users can buy 1 `A_USD` for 0.99 USD, then trade 1 `A_USD` for 1 USD of `ALGO`. The trade burns 1 `A_USD` and mints 1 USD of `ALGO`, netting the arbitrage trader a profit of .01 `A_USD`.
 
 This is how the price of `A_USD` is maintained at $1 USD 
+ **Stablecoin Trilemma**        
+A stablecoin must maintain a delicate balance between three major objectives: price stability, decentralization, and capital efficiency. 
+
+
+**Price Stability** - Price stability is one of the most important aspects for stablecoins. Fiat-based coins offer the highest price stability, followed by crypto-backed coins and then algorithmic stablecoins. In 2022, we saw the failure of the biggest algorithmic coin, UST.
+
+**Importance of Decentralization** - Decentralization is important because it allows for more democratic practices around the world. When governments have too much control, they can block users' funds which can cripple a person's ability to speak out or protest against the government. A fully decentralized world would benefit greatly from these democratic practices, and we should strive to not give up on these principles. Even though fiat backed stable coins have excellent price stability, they lack decentralization as they are issued by a centralized issuer.
+
+**Capital Efficiency** -  Capital efficiency defined as how much capital is required to make $1 of a token. In case of algorithmic coins we might not need any real assets, so it has very high capital efficiency. In case of fiat backed stable coins we need 1 USD cash(something similar) to create $1 token.  In case of collateralized crypto coins, this value can be as high as 3-4 times i.e. we might need $3-$4 worth of crypto assets as collateral to generate $1 worth of stablecoin token. 
+ **Stablecoins Future**        
+At the end of 2022, transactions that only involve the top four largest stablecoins by market capitalization (USDT, USDC, BUSD, and DAI) make up 76% of all trading volume across centralized exchanges, according to CryptoCompare. Fiat-backed stablecoins make up 91.7% of this crypto sector, and Tether (USDT) and USDCoin (USDC) comprise the majority of that, leaving crypto-backed and algorithmic stablecoins to make up the remainder.
+
+Stablecoins have a lot of potential uses that could be really beneficial for mainstream commercial purposes, like merchant payments and cross-border remittances. In fact, we're starting to see more stablecoin payments being sent all over the world via public blockchain networks - which suggests that these assets are not just a store of value for crypto market players, but actually represent an improvement over traditional payment methods. So it's likely that demand for stablecoins will continue to grow in the long term. 
+
+That's one of the reasons why we're seeing more DeFi protocols launching their own platform-native stablecoins - as a way to source liquidity and offer integrated services.
+
+For example, the team behind automated market maker Curve has released plans on Github for a new stablecoin design called a Lending-Liquidating AMM Algorithm or LLAMMA. With this design, the collateral type is contingent on price performance. Decentralized lender Aave has also released a technical paper for its upcoming overcollateralized GHO stablecoin. This could help it lower capital efficiency costs. 
+ **Top Market Cap**        
+The market capitalisation of a project is the total number of tokens that exist multiplied by the value per token. Here are the stable coins that represent the top market capitalisation of stable coins:
+
+ 
  
