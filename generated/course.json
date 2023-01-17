@@ -977,16 +977,16 @@
           "title": "Price Stability"
         },
         {
-          "key": "references",
-          "shortTitle": "References",
-          "details": "-  https://frax.finance/\n-  https://docs.frax.finance/\n-  https://messari.io/report/frax-a-fractional-algorithmic-stablecoin\n-  https://cryptobriefing.com/defi-project-spotlight-frax-finance-a-sweet-spot-for-stablecoins/\n",
-          "title": "References"
-        },
-        {
           "key": "algorithmic-market-operations-controller-amo",
           "shortTitle": "AMO",
           "details": "The AMO module is an autonomous contract that enacts monetary policy, so long as it does not change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically, but they cannot mint FRAX out of thin air and break the peg. This keeps FRAX’s base layer stability mechanism pure.\n\nIn Frax v1, The Frax protocol rebalances its collateral ratio (CR) dynamically based on the market price of the FRAX stablecoin. If the price of FRAX is above $1, then the CR decreases (\"decollateralization\"). If the price of FRAX is below $1, then the CR increases (\"recollateralization\"). The protocol always honors redemptions of FRAX at the $1 peg, but since the CR is dynamic, it may need to mint Frax Share tokens (FXS) to cover the value of any redemptions that exceed the available collateral. For example, at an 85% CR, every redeemed FRAX gives the user $.85 USDC and $.15 of minted FXS. It is a trivial implementation detail whether the protocol returns to the redeemer $.15 worth of FXS directly or atomically sells the FXS for collateral onchain to return the full $1 of value in collateral – the economic implementation is the same.    \n\nFrax2 is a generalization of the previous mechanism to any arbitrarily complex market operation. This enables the creation of a Turing-complete design space of stability mechanisms. Thus, each AMO can be thought of as a central bank money lego. Every AMO has four properties:\n1. Decollateralize - the portion of the strategy which lowers the CR \n2. Market operations - the portion of the strategy that is run in equilibrium and doesn't change the CR\n3. Recollateralize - the portion of the strategy which increases the CR \n4. FXS1559 - a formalized accounting of the balance sheet of the AMO which defines exactly how much FXS can be burned with profits above the target CR. \n",
           "title": "Algorithmic Market Operations Controller (AMO)"
+        },
+        {
+          "key": "references",
+          "shortTitle": "References",
+          "details": "-  https://frax.finance/\n-  https://docs.frax.finance/\n-  https://messari.io/report/frax-a-fractional-algorithmic-stablecoin\n-  https://cryptobriefing.com/defi-project-spotlight-frax-finance-a-sweet-spot-for-stablecoins/\n",
+          "title": "References"
         }
       ],
       "questions": [
