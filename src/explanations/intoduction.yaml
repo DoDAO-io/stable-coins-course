@@ -206,3 +206,25 @@
     CryptoCompare. Fiat-backed stablecoins make up 91.7% of this crypto sector,
     and Tether (USDT) and USDCoin (USDC) comprise the majority of that, leaving
     crypto-backed and algorithmic stablecoins to make up the remainder.
+
+
+    Stablecoins have a lot of potential uses that could be really beneficial for
+    mainstream commercial purposes, like merchant payments and cross-border
+    remittances. In fact, we're starting to see more stablecoin payments being
+    sent all over the world via public blockchain networks - which suggests that
+    these assets are not just a store of value for crypto market players, but
+    actually represent an improvement over traditional payment methods. So it's
+    likely that demand for stablecoins will continue to grow in the long term. 
+
+
+    That's one of the reasons why we're seeing more DeFi protocols launching
+    their own platform-native stablecoins - as a way to source liquidity and
+    offer integrated services.
+
+
+    For example, the team behind automated market maker Curve has released plans
+    on Github for a new stablecoin design called a Lending-Liquidating AMM
+    Algorithm or LLAMMA. With this design, the collateral type is contingent on
+    price performance. Decentralized lender Aave has also released a technical
+    paper for its upcoming overcollateralized GHO stablecoin. This could help it
+    lower capital efficiency costs.
