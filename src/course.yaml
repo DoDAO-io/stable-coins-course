@@ -9,19 +9,34 @@ highlights:
   - USDT
   - DAI
 publishStatus: Draft
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
-details: >-
-  In this course we first ....
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/stable_coins_course.png
+details: In this course we first ....
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
     title: Intoduction
     details: >+
-      Stable Coins Intro
+      Stablecoins are a type of cryptocurrency that are pegged to the value of a
+      fiat currency, commodity, or other cryptocurrency. The value of a
+      stablecoin is designed to remain stable, unlike other cryptocurrencies
+      like Bitcoin which can experience significant price fluctuations. Examples
+      of stablecoins include Tether, USD Coin, Dai etc. These coins can be used
+      for various applications such as trading, payments and remittances.
+
+
+
+    explanations: intoduction.yaml
   - title: USDC
     key: usdc
     details: >
-      In this chapter, we will delve into the world of stablecoins and specifically focus on USDC. We will explore the history and background of USDC, how it is minted and burned, how it is backed and the level of transparency it offers. This chapter aims to provide a comprehensive understanding of USDC and its place in the crypto-economy. Whether you're a seasoned crypto enthusiast or just starting out, this chapter will give you a deeper understanding of the mechanics and benefits of USDC stablecoin.    
+      In this chapter, we will delve into the world of stablecoins and
+      specifically focus on USDC. We will explore the history and background of
+      USDC, how it is minted and burned, how it is backed and the level of
+      transparency it offers. This chapter aims to provide a comprehensive
+      understanding of USDC and its place in the crypto-economy. Whether you're
+      a seasoned crypto enthusiast or just starting out, this chapter will give
+      you a deeper understanding of the mechanics and benefits of USDC
+      stablecoin.    
     explanations: usdc.yaml
     questions: usdc.yaml
     status: Completed
@@ -29,7 +44,12 @@ topics:
   - title: USDT
     key: usdt
     details: >
-      This chapter covers the topic of USDT stablecoin. The chapter delves into the history of USDT and how it works, including the process of minting and burning tokens. It also covers how USDT is backed and the measures in place to ensure transparency and audits. Additionally, the chapter explores the growth and adoption of USDT and the potential implications, for the broader cryptocurrency market.
+      This chapter covers the topic of USDT stablecoin. The chapter delves into
+      the history of USDT and how it works, including the process of minting and
+      burning tokens. It also covers how USDT is backed and the measures in
+      place to ensure transparency and audits. Additionally, the chapter
+      explores the growth and adoption of USDT and the potential implications,
+      for the broader cryptocurrency market.
     explanations: usdt.yaml
     questions: usdt.yaml
     status: Completed
@@ -37,7 +57,15 @@ topics:
   - title: DAI
     key: dai
     details: >
-      This chapter explores the exciting world of DAI stablecoin. We will delve into the history and evolution of DAI, how it operates through the process of minting and burning, and the ways in which it is backed to ensure stability. We will also examine the transparency and auditing measures in place to ensure the integrity of the stablecoin. Additionally, we will delve into the mechanisms that are used to maintain the peg and how liquidation is handled in case of market fluctuations. Lastly, we will discuss any issues or hacks that have occurred with DAI in the past and the measures taken to prevent them in the future.  
+      This chapter explores the exciting world of DAI stablecoin. We will delve
+      into the history and evolution of DAI, how it operates through the process
+      of minting and burning, and the ways in which it is backed to ensure
+      stability. We will also examine the transparency and auditing measures in
+      place to ensure the integrity of the stablecoin. Additionally, we will
+      delve into the mechanisms that are used to maintain the peg and how
+      liquidation is handled in case of market fluctuations. Lastly, we will
+      discuss any issues or hacks that have occurred with DAI in the past and
+      the measures taken to prevent them in the future.  
     explanations: dai.yaml
     questions: dai.yaml
     status: Completed

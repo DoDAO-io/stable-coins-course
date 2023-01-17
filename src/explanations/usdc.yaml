@@ -1,51 +1,133 @@
-- title: USD Coin
-  shortTitle: USDC
-  key: usdc-introduction
-  details: |
-    ### About
-
-    USD Coin (USDC) is a stablecoin that is pegged to the value of the US dollar. It was created in 2018 by Circle and Coinbase through a partnership called the CENTRE consortium. USDC is an ERC-20 token, which means it is built on the Ethereum blockchain and follows a set of standardized protocols. It allows users to send US dollars over the internet and on public blockchains, giving them greater accessibility and faster transfer speeds. In addition, USDC can be easily converted back to US dollars at any time.
-
-
-    Circle is a Boston-based financial services company that was founded in 2013. It offers a variety of products and services, including a peer-to-peer payment platform, a cryptocurrency exchange, and a trading platform for institutional investors. In addition to creating USDC, Circle has also played a significant role in the development of the stablecoin market.
-
-
-    Coinbase is a San Francisco-based cryptocurrency exchange that was founded in 2012. It is one of the largest and most well-known exchanges in the world, and it offers a range of products and services for both individual and institutional investors.
-
-
-    USDC was developed to address two main issues with other cryptocurrencies: volatility and the difficulty of converting between fiat currencies and cryptocurrencies. To maintain stability and transparency, USDC is fully backed by US dollars held in reserve, and the CENTRE consortium publishes regular reports on the total supply of USDC and the amount of backing it has. In addition, members of the consortium must meet certain standards, including licensing, compliance, technology, and accounting, in order to issue USDC.
+- key: usdc-introduction
+  title: USD Coin
+  shortTitle: Introduction
+  details: >
+    USD Coin (USDC) is a stablecoin that is pegged to the value of the US
+    dollar. It was created in 2018 by Circle and Coinbase through a partnership
+    called the CENTRE consortium. USDC is an ERC-20 token, which means it is
+    built on the Ethereum blockchain and follows a set of standardized
+    protocols. It allows users to send US dollars over the internet and on
+    public blockchains, giving them greater accessibility and faster transfer
+    speeds. In addition, USDC can be easily converted back to US dollars at any
+    time.
 
 
+
+    Circle is a Boston-based financial services company that was founded in
+    2013. It offers a variety of products and services, including a peer-to-peer
+    payment platform, a cryptocurrency exchange, and a trading platform for
+    institutional investors. In addition to creating USDC, Circle has also
+    played a significant role in the development of the stablecoin market.
+
+
+
+    Coinbase is a San Francisco-based cryptocurrency exchange that was founded
+    in 2012. It is one of the largest and most well-known exchanges in the
+    world, and it offers a range of products and services for both individual
+    and institutional investors.
+
+
+
+    USDC was developed to address two main issues with other cryptocurrencies:
+    volatility and the difficulty of converting between fiat currencies and
+    cryptocurrencies. To maintain stability and transparency, USDC is fully
+    backed by US dollars held in reserve, and the CENTRE consortium publishes
+    regular reports on the total supply of USDC and the amount of backing it
+    has. In addition, members of the consortium must meet certain standards,
+    including licensing, compliance, technology, and accounting, in order to
+    issue USDC.
+- key: working
+  shortTitle: Working
+  details: >
     ### Mint and Burn
 
 
-    Businesses can open a Circle Account to trade US dollars for USDC. When a company deposits USD into their Circle Account, Circle credits the company with the corresponding amount of USDC. "Minting" is the process of creating a new USDC. This operation generates new USDC for circulation.
+
+    Businesses can open a Circle Account to trade US dollars for USDC. When a
+    company deposits USD into their Circle Account, Circle credits the company
+    with the corresponding amount of USDC. "Minting" is the process of creating
+    a new USDC. This operation generates new USDC for circulation.
 
 
-    Similarly, if a company wants to trade its USDC for US dollars, they can deposit USDC into their Circle Account and request to receive US dollars for free. "Burning" is the process of redeeming USDC. This procedure removes USDC from circulation.
+
+    Similarly, if a company wants to trade its USDC for US dollars, they can
+    deposit USDC into their Circle Account and request to receive US dollars for
+    free. "Burning" is the process of redeeming USDC. This procedure removes
+    USDC from circulation.
 
 
-    When US dollars are exchanged for USDC on a digital asset exchange, the exchange will normally supply the balance of USDC on hand to complete the trade. If the exchange needs additional USDC to complete the deal, it will frequently use its Circle Account to create extra USDC.
+
+    When US dollars are exchanged for USDC on a digital asset exchange, the
+    exchange will normally supply the balance of USDC on hand to complete the
+    trade. If the exchange needs additional USDC to complete the deal, it will
+    frequently use its Circle Account to create extra USDC.
+
 
 
     ### Transparency
 
 
-    Since its launch in 2018, Circle has published monthly reserve reports for USDC that are attested to by Grant Thornton, a global accounting firm. These reports provide independent confirmation that Circle holds at least as much in dollar-denominated reserves as the amount of USDC in circulation. In addition to the standard information provided in these reports, Circle also recently began publishing details about the CUSIPs, maturity dates, and market values of the T-bills in its portfolio, as well as the financial institutions that hold the cash portion of the USDC reserve and the weighted average maturity of the entire reserve. Starting in July 2022, Grant Thornton's attestations will cover all of this additional information, providing independent confirmation of the detailed composition and sufficiency of the USDC reserve. An attestation from an accounting firm is similar to an audit in that it provides assurance around specific statements or criteria. In this case, the firm reviews the supporting documentation prepared by Circle's management and verifies the criteria presented in the reserve report. Circle also files annual audited financial statements with the SEC that cover the USDC reserve. In order to prepare the reserve report, Circle must reconcile the differences between the real-time movement of USDC on the blockchain and the settlement delays and business hours of traditional financial institutions. These differences are accounted for in the attested reserve asset balances and do not impact the overall size of the reserve or the fact that USDC is always redeemable 1:1 for US dollars. Circle's commitment to providing transparent and timely reporting on its risk minimization and liquidity maintenance efforts helps to give the market confidence in USDC. It plans to continue enhancing its transparency as policy and regulatory requirements evolve and better reporting opportunities arise.
+
+    Since its launch in 2018, Circle has published monthly reserve reports for
+    USDC that are attested to by Grant Thornton, a global accounting firm. These
+    reports provide independent confirmation that Circle holds at least as much
+    in dollar-denominated reserves as the amount of USDC in circulation. In
+    addition to the standard information provided in these reports, Circle also
+    recently began publishing details about the CUSIPs, maturity dates, and
+    market values of the T-bills in its portfolio, as well as the financial
+    institutions that hold the cash portion of the USDC reserve and the weighted
+    average maturity of the entire reserve. Starting in July 2022, Grant
+    Thornton's attestations will cover all of this additional information,
+    providing independent confirmation of the detailed composition and
+    sufficiency of the USDC reserve. An attestation from an accounting firm is
+    similar to an audit in that it provides assurance around specific statements
+    or criteria. In this case, the firm reviews the supporting documentation
+    prepared by Circle's management and verifies the criteria presented in the
+    reserve report. Circle also files annual audited financial statements with
+    the SEC that cover the USDC reserve. In order to prepare the reserve report,
+    Circle must reconcile the differences between the real-time movement of USDC
+    on the blockchain and the settlement delays and business hours of
+    traditional financial institutions. These differences are accounted for in
+    the attested reserve asset balances and do not impact the overall size of
+    the reserve or the fact that USDC is always redeemable 1:1 for US dollars.
+    Circle's commitment to providing transparent and timely reporting on its
+    risk minimization and liquidity maintenance efforts helps to give the market
+    confidence in USDC. It plans to continue enhancing its transparency as
+    policy and regulatory requirements evolve and better reporting opportunities
+    arise.
+
 
 
     ### Backing
 
 
-    USDC is fully backed by the equivalent value of U.S. dollar-denominated assets and is held in the management and custody of leading U.S. financial institutions, including BlackRock and Bank of New York Mellon. The USDC reserve consists of cash and short-dated U.S. government obligations, specifically U.S. Treasuries with maturities of three months or less. As of May 13, 2022, the USDC reserve was worth $50.6 billion and consisted of $11.6 billion in cash (22.9%) and $39.0 billion in U.S. Treasuries (77.1%). As of Jan 5, 2023 the total USDC in circulation is $44 B. The total circulating supply is also equal to $44 billion.
+
+    USDC is fully backed by the equivalent value of U.S. dollar-denominated
+    assets and is held in the management and custody of leading U.S. financial
+    institutions, including BlackRock and Bank of New York Mellon. The USDC
+    reserve consists of cash and short-dated U.S. government obligations,
+    specifically U.S. Treasuries with maturities of three months or less. As of
+    May 13, 2022, the USDC reserve was worth $50.6 billion and consisted of
+    $11.6 billion in cash (22.9%) and $39.0 billion in U.S. Treasuries (77.1%).
+    As of Jan 5, 2023 the total USDC in circulation is $44 B. The total
+    circulating supply is also equal to $44 billion.
 
 
-    USDC is always redeemable 1:1 for U.S. dollars. Customers of Circle can mint or redeem USDC in exchange for U.S. dollars through their Circle account, with the exchange happening nearly instantly subject to the settlement of funds. Individual retail users can also exchange USDC for U.S. dollars globally through leading digital asset exchanges such as Binance and Coinbase. As of May 13, 2022, Circle had minted 99.3 billion USDC and redeemed 61.1 billion USDC during the year. There are thousands of projects and exchanges supporting USDC in over 190 countries, facilitating its use and exchange for market participants. On Jan 5, 2023, the 24-hour trading volume of USDC was $ 4 billion.
 
+    USDC is always redeemable 1:1 for U.S. dollars. Customers of Circle can mint
+    or redeem USDC in exchange for U.S. dollars through their Circle account,
+    with the exchange happening nearly instantly subject to the settlement of
+    funds. Individual retail users can also exchange USDC for U.S. dollars
+    globally through leading digital asset exchanges such as Binance and
+    Coinbase. As of May 13, 2022, Circle had minted 99.3 billion USDC and
+    redeemed 61.1 billion USDC during the year. There are thousands of projects
+    and exchanges supporting USDC in over 190 countries, facilitating its use
+    and exchange for market participants. On Jan 5, 2023, the 24-hour trading
+    volume of USDC was $ 4 billion.
+  title: Working
 - title: References
   shortTitle: References
   key: usdc-references
   details: |
     `https://www.circle.com/en/usdc`
     `https://www.centre.io/usdc`
-    
