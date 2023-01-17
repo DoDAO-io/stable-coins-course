@@ -228,3 +228,11 @@
     price performance. Decentralized lender Aave has also released a technical
     paper for its upcoming overcollateralized GHO stablecoin. This could help it
     lower capital efficiency costs.
+- key: top-market-cap
+  shortTitle: Market Cap
+  details: >+
+    The market capitalisation of a project is the total number of tokens that
+    exist multiplied by the value per token. Here are the stable coins that
+    represent the top market capitalisation of stable coins:
+
+  title: Top Market Cap
