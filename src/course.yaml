@@ -9,8 +9,25 @@ highlights:
   - USDT
   - DAI
 publishStatus: Draft
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/stable_coins_course.png
-details: In this course we first ....
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/stable_coins_course.png
+details: >-
+  In this course, we will explore stable coins and their role in the
+  cryptocurrency market. We will discuss different types of stable coins and how
+  they work to maintain stability. We will also study the top used stable coins
+  in detail, including 
+
+  1. USDC
+
+  2. USDT
+
+  3. DAI
+
+  4. Frax.
+
+
+  We also then look at the future prospects of stabecoins and what role we think
+  they will play in the future.
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
@@ -72,7 +89,7 @@ topics:
     completionWeek: Completed
   - title: Frax
     key: frax
-    details: >
+    details: |
       Frax stable coin
     explanations: frax.yaml
     questions: frax.yaml
@@ -81,3 +98,6 @@ topics:
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!
+topicConfig:
+  showExplanations: false
+  showHints: false
