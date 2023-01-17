@@ -50,7 +50,7 @@
         {
           "key": "top-market-cap",
           "shortTitle": "Market Cap",
-          "details": "The market capitalisation of a project is the total number of tokens that exist multiplied by the value per token. Here are the stable coins that represent the top market capitalisation of stable coins:\n\n",
+          "details": "The market capitalisation of a project is the total number of tokens that exist multiplied by the value per token. Here are the stable coins that represent the top market capitalisation of stable coins:\n\n![Top Market Caps](https://raw.githubusercontent.com/DoDAO-io/stable-coins-course/main/images/market_caps.png)",
           "title": "Top Market Cap"
         }
       ],
