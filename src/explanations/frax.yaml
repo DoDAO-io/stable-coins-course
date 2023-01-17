@@ -1,37 +1,41 @@
 - key: frax-introduction
   title: FRAX coin
-  shortTitle: FRAX
+  shortTitle: Introduction
   details: >
     ### Introduction
 
-
-    The [Frax protocol](https://frax.finance/) is a decentralized stablecoin
-    that utilizes a novel mechanism to maintain price stability. It is
-    open-source and permissionless and is currently implemented on Ethereum and
-    12 other chains. Frax was founded by Sam Hamidi-Kazemian, Travis Moore, and
-    Jason Huan. It was announced in May 2019 as a Decentral bank and was
-    launched on the Ethereum Mainnet in December 2020. The goal of the Frax
-    protocol is to provide a highly scalable and decentralized form of
-    algorithmic money, as an alternative to fixed-supply digital assets like
-    Bitcoin.
+    Many people are hesitant to adopt purely algorithmic coins because so many
+    of them have failed over time. For example, UST was the biggest stable coin
+    but it got depegged in 2022 and lost all its value. The main problem with
+    algorithmic designs is that they often have a hard time getting started,
+    they grow slowly, and they can be very volatile, which makes people lose
+    faith in their ability to be stablecoins.
 
 
+    The Frax protocol is a two-token system comprising a stablecoin, Frax
+    (FRAX), and a governance token, Frax Shares (FXS). The protocol also has a
+    pool contract which holds USDC collateral. Pools can be added or removed
+    with governance. Frax is a hibrid of algorithmic and collateral based
+    stablecoins.
 
-    The Frax ecosystem includes two stablecoins, FRAX and FPI, which are pegged
-    to the US dollar and the US Consumer Price Index respectively. It also
-    includes Fraxswap, a native automated market maker, and Fraxlend, a
-    permissionless lending facility.
+
+    Fractional Reserve Asset Exchange (FRAX) stablecoins can be minted by
+    placing the appropriate amount of its constituent parts into the system. At
+    genesis, FRAX is 100% collateralized, meaning that minting FRAX only
+    requires placing collateral into the minting contract. During the fractional
+    phase, minting FRAX requires placing the appropriate ratio of collateral and
+    burning the ratio of Frax Shares (FXS).
+
+
+    The Frax Protocol is designed to accept any type of cryptocurrency as
+    collateral, but this implementation will mainly use on-chain stablecoins to
+    help reduce volatility. This will make it easier for FRAX to transition to
+    more algorithmic ratios smoothly. As the system's velocity increases, it
+    will become safer to include volatile cryptocurrency, such as ETH and
+    wrapped BTC, into future pools with governance.
 
 
 
-    Frax is unique in that it is a fractional stablecoin, meaning that parts of
-    its supply are backed by collateral and parts are algorithmically
-    stabilized. Fraxswap is the first AMM to use time-weighted average market
-    maker orders, which the Frax protocol uses for rebalancing collateral,
-    minting and redeeming tokens, expanding and contracting FRAX supply, and
-    deploying protocol-owned liquidity on-chain. Fraxlend allows for debt
-    origination, customized non-custodial loans, and onboarding of collateral
-    assets to the Frax Finance economy.
 
 
 
