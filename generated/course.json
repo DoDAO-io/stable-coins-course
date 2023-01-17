@@ -981,6 +981,12 @@
           "shortTitle": "References",
           "details": "-  https://frax.finance/\n-  https://docs.frax.finance/\n-  https://messari.io/report/frax-a-fractional-algorithmic-stablecoin\n-  https://cryptobriefing.com/defi-project-spotlight-frax-finance-a-sweet-spot-for-stablecoins/\n",
           "title": "References"
+        },
+        {
+          "key": "algorithmic-market-operations-controller-amo",
+          "shortTitle": "AMO",
+          "details": "An AMO module is an autonomous contract(s) that enacts arbitrary  monetary policy so long as it does not change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically (as in the name), but they cannot arbitrarily mint FRAX out of thin air and break the peg. This keeps FRAX’s base layer stability mechanism pure and untouched, which has been the core of what makes our protocol special and inspired other smaller projects. ",
+          "title": "Algorithmic Market Operations Controller (AMO)"
         }
       ],
       "questions": [
