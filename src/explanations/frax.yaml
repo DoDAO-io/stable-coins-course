@@ -35,26 +35,18 @@
     wrapped BTC, into future pools with governance.
 
 
+    Although there's no predetermined timeframes for how quickly the amount of
+    collateralization changes, we believe that as FRAX adoption increases, users
+    will be more comfortable with a higher percentage of FRAX supply being
+    stabilized algorithmically rather than with collateral. 
 
 
-
-
-    Frax's end goal is to build important decentralized stablecoins in the
-    world, such as the Frax Price Index (FPI) stablecoin, which is pegged to a
-    basket of consumer goods, creating its own unit of account separate from any
-    nation-state denominated money. The Frax ecosystem includes four tokens:
-    FRAX, the stablecoin targeting a tight band around $1/coin; Frax Share
-    (FXS), the governance token of the entire Frax ecosystem which accrues fees,
-    seigniorage revenue, and excess collateral value; FPI, the
-    inflation-resistant, CPI-pegged stablecoin; and FPIS, the governance token
-    of the Frax Price Index.
-
-
-
-    The Frax ecosystem also includes a Gauge Rewards System, where the community
-    can propose new gauge rewards for strategies that integrate FRAX
-    stablecoins. FXS emissions are fixed, halve each year, and entirely flow to
-    different gauges based on the votes of FXS stakers.
+    The collateral ratio refresh function in the protocol can be called by any
+    user once per hour. If the price of FRAX is above or below $1, the function
+    can change the collateral ratio in steps of .25%. When FRAX is above $1, the
+    function lowers the collateral ratio by one step and when the price of FRAX
+    is below $1, the function increases the collateral ratio by one step. Both
+    refresh rate and step parameters can be adjusted through governance.
 
 
     ### Recollateralization and Buybacks
