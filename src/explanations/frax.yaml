@@ -58,21 +58,42 @@
 
 
 
-    FRAX utilizes a technique called "arbitrage" to maintain price stability.
-    Arbitrage is the practice of buying and selling assets in different markets
-    to take advantage of price discrepancies. In the case of FRAX, when the
-    price of FRAX rises above its target price, the algorithm will automatically
-    sell FRAX in exchange for another cryptocurrency, such as Ethereum, to bring
-    the price back down. When the price of FRAX falls below its target price,
-    the algorithm will buy FRAX using the cryptocurrency it previously sold,
-    bringing the price back up. Additionally, FRAX has a "mint and burn"
-    mechanism, where when the price of FRAX is above its target price, users can
-    "mint" new FRAX by providing collateral in the form of other
-    cryptocurrencies, and when the price of FRAX is below its target price,
-    users can "burn" FRAX by removing it from circulation. This mechanism helps
-    to ensure that the supply of FRAX remains in line with demand, which helps
-    to keep the price stable.
+    At all times in order to mint new FRAX a user must place $1 worth of value
+    into the system
 
+
+    ##### When FRAX price moves above $1
+
+
+    Anyone can mint new tokens by depositing $1 worth of value into the system.
+    The value can be in the form of either FXS or collateral. When FRAX is in
+    the 100% collateral phase, all of the value that is used to mint new tokens
+    must be in collateral. As the protocol transition into the fractional state,
+    some of the value that enters into the system during minting becomes FXS
+    (which is then burned). For example, in a 96% collateral ratio, every FRAX
+    minted requires $.96 of collateral and burning $.04 worth of FXS. In a 95%
+    collateral ratio, every FRAX minted requires $.95 of collateral and burning
+    $.05 of FXS, and so on.
+
+
+    If the price of FRAX jumps to 1.01, people who get involved in these
+    arbitrage opportunities, can make a profit of 1 cent for every dollar minted
+
+
+    ##### When FRAX price moves blow $1
+
+    If the market price of FRAX is below the price range of $1, then there is an
+    arbitrage opportunity to redeem FRAX tokens by purchasing cheaply on the
+    open market and redeeming FRAX for $1 of value from the system. At all
+    times, a user is able to redeem FRAX for $1 worth of value from the system.
+    The difference is simply what proportion of the collateral and FXS is
+    returned to the redeemer. When FRAX is in the 100% collateral phase, 100% of
+    the value returned from redeeming FRAX is collateral. As the protocol moves
+    into the fractional phase, part of the value that leaves the system during
+    redemption becomes FXS (which is minted to give to the redeeming user). For
+    example, in a 98% collateral ratio, every FRAX can be redeemed for $.98 of
+    collateral and $.02 of minted FXS. In a 97% collateral ratio, every FRAX can
+    be redeemed for $.97 of collateral and $.03 of minted FXS.
 
 
     ### Mint and Redeem
