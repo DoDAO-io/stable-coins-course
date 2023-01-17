@@ -267,3 +267,15 @@
     be redeemed for $.98 of collateral and $.02 of minted FXS. In a 97%
     collateral ratio, every FRAX can be redeemed for $.97 of collateral and $.03
     of minted FXS.
+- key: references
+  shortTitle: References
+  details: >
+    -  https://frax.finance/
+
+    -  https://docs.frax.finance/
+
+    -  https://messari.io/report/frax-a-fractional-algorithmic-stablecoin
+
+    - 
+    https://cryptobriefing.com/defi-project-spotlight-frax-finance-a-sweet-spot-for-stablecoins/
+  title: References
