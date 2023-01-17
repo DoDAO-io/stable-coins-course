@@ -197,6 +197,14 @@
     3-4 times i.e. we might need $3-$4 worth of crypto assets as collateral to
     generate $1 worth of stablecoin token.
 - key: stablecoins-future
-  shortTitle: Future
-  details: "As of end of 2022,  Transactions\ninvolving just the top four stablecoins by market\ncap (USDT, USDC, BUSD, and DAI) represent a 76%\nshare of all trading volumes across centralized\nexchanges, according to CryptoCompare.\n\nFiat-backed stablecoins represent 91.7% \L\nof this crypto sector of which Tether \L\n(USDT at $67B) and USDCoin (USDC at $44B) \L\ncomprise the majority, leaving crypto-backed\nand algorithmic stablecoins to make up the\nremainder."
   title: Stablecoins Future
+  shortTitle: Future
+  details: >+
+    According to CryptoCompare, by the end of 2022 transactions involving just
+    the top four stablecoins by market cap (USDT, USDC, BUSD, and DAI) will make
+    up 76% of all trading volume across centralized exchanges. This means that
+    fiat-backed stablecoins will represent 91.7% of the total crypto market,
+    with Tether (USDT) and USDCoin (USDC) making up the majority at $67B and
+    $44B respectively. This leaves crypto-backed and algorithmic stablecoins to
+    make up the remainder.
+
