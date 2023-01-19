@@ -144,35 +144,26 @@
       content: In steps of 5%
 - uuid: 3e724297-fe60-4835-a028-d7a8ab17ab99
   type: SingleChoice
-  content: What is the function of veFXS in the Frax ecosystem?
+  content: >-
+    What amount of profit can the people who get involved in the arbitrage
+    opportunities make if the price of FRAX jumps to $1.02?
   hint: NoHint
   explanation: >-
-    The veFXS feature allows FXS holders to lock up their tokens for a certain
-    period of time in order to generate voting escrow FXS and earn bonuses,
-    governance rights, and AMO (Algorithmic Market Operations Controller)
-    profits. The longer the FXS tokens are locked, the more bonuses awarded to
-    the veFXS holders. Additionally, veFXS holders are able to participate in
-    Frax gauges and influence or direct FXS to different FRAX gauges, a similar
-    mechanism established by the Curve protocol and its gauge system.
+    If the price of FRAX jumps to 1.02, people who get involved in the arbitrage
+    opportunities, can make a profit of 2 cent for every dollar minted.
   answerKeys:
     - D
-  difficultyLevel: Low
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: >-
-        It allows FXS holders to lock up their tokens for a certain period of
-        time in order to generate voting escrow FXS and earn bonuses, governance
-        rights, and AMO profits
-      key: A
-    - content: >-
-        It allows FXS holders to participate in Frax gauges and influence or
-        direct FXS to different FRAX gauges
-      key: B
-    - content: >-
-        It allows FXS holders to earn bonuses for recollateralizing the Frax
-        Protocol
-      key: C
-    - content: All of the above
-      key: D
+    - key: A
+      content: No profit is possible
+    - key: B
+      content: A profit of 1 cent for every dollar minted
+    - key: C
+      content: A profit of 2 dollars for every dollar minted
+    - key: D
+      content: A profit of 2 cent for every dollar minted
 - uuid: 8296f55c-8179-4fcb-850d-ec2ef250de9d
   type: SingleChoice
   content: >-
