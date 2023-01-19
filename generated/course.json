@@ -1082,28 +1082,29 @@
         {
           "uuid": "5a386bca-a62d-438e-a1b3-a3b3827d1dc1",
           "type": "SingleChoice",
-          "content": "What is the Frax Price Index (FPI) stablecoin pegged to?",
+          "content": "When FRAX is in the 100% collateral phase, what proportion of the value used to mint new tokens must be in collateral?",
           "hint": "NoHint",
-          "explanation": "The Frax ecosystem includes two stablecoins, FRAX and FPI, which are pegged to the US dollar and the US Consumer Price Index respectively.",
+          "explanation": "When FRAX is in the 100% collateral phase, all of the value that is used to mint new tokens must be in collateral.",
           "answerKeys": [
-            "B"
+            "D"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "US Dollar",
+              "content": "50%",
               "key": "A"
             },
             {
-              "content": "US Consumer Price Index",
+              "content": "75%",
               "key": "B"
             },
             {
-              "content": "Ethereum",
+              "content": "96%",
               "key": "C"
             },
             {
-              "content": "Bitcoin",
+              "content": "100%",
               "key": "D"
             }
           ]

@@ -2,7 +2,10 @@
   type: MultipleChoice
   content: Pick the correct options about FRAX.
   hint: FRAX is not centralized.
-  explanation: The Frax protocol is a decentralized stablecoin that utilizes a novel mechanism to maintain price stability. It is open-source and permissionless and is currently implemented on Ethereum and 12 other chains.
+  explanation: >-
+    The Frax protocol is a decentralized stablecoin that utilizes a novel
+    mechanism to maintain price stability. It is open-source and permissionless
+    and is currently implemented on Ethereum and 12 other chains.
   answerKeys:
     - A
     - B
@@ -38,14 +41,18 @@
   type: SingleChoice
   content: How is the FXS token used in the Frax ecosystem?
   hint: NoHint
-  explanation: Frax Share (FXS) is the governance token of the entire Frax ecosystem which accrues fees, seigniorage revenue, and excess collateral value.
+  explanation: >-
+    Frax Share (FXS) is the governance token of the entire Frax ecosystem which
+    accrues fees, seigniorage revenue, and excess collateral value.
   answerKeys:
     - D
   difficultyLevel: Low
   choices:
     - content: As a governance token
       key: A
-    - content: As a means of accruing fees, seigniorage revenue, and excess collateral value
+    - content: >-
+        As a means of accruing fees, seigniorage revenue, and excess collateral
+        value
       key: B
     - content: As a means of controlling the emission of new tokens
       key: C
@@ -53,31 +60,40 @@
       key: D
 - uuid: 5a386bca-a62d-438e-a1b3-a3b3827d1dc1
   type: SingleChoice
-  content: What is the Frax Price Index (FPI) stablecoin pegged to?
+  content: >-
+    When FRAX is in the 100% collateral phase, what proportion of the value used
+    to mint new tokens must be in collateral?
   hint: NoHint
-  explanation: The Frax ecosystem includes two stablecoins, FRAX and FPI, which are pegged to the US dollar and the US Consumer Price Index respectively.
+  explanation: >-
+    When FRAX is in the 100% collateral phase, all of the value that is used to
+    mint new tokens must be in collateral.
   answerKeys:
-    - B
-  difficultyLevel: Low
+    - D
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: US Dollar
-      key: A
-    - content: US Consumer Price Index
-      key: B
-    - content: Ethereum
-      key: C
-    - content: Bitcoin
-      key: D
+    - key: A
+      content: 50%
+    - key: B
+      content: 75%
+    - key: C
+      content: 96%
+    - key: D
+      content: 100%
 - uuid: 6d880f47-b461-4b53-ac02-9c4458c0f4a8
   type: SingleChoice
   content: What is Arbitrage?
   hint: NoHint
-  explanation: Arbitrage is the practice of buying and selling assets in different markets to take advantage of price discrepancies.
+  explanation: >-
+    Arbitrage is the practice of buying and selling assets in different markets
+    to take advantage of price discrepancies.
   answerKeys:
     - A
   difficultyLevel: Low
   choices:
-    - content: The practice of buying and selling assets in different markets to take advantage of price discrepancies
+    - content: >-
+        The practice of buying and selling assets in different markets to take
+        advantage of price discrepancies
       key: A
     - content: The practice of buying and selling assets in same market
       key: B
@@ -89,7 +105,9 @@
   type: SingleChoice
   content: What is the Frax collateral ratio?
   hint: NoHint
-  explanation: The Frax collateralization ratio determines the ratio between collateral and algorithm that makes up the $1 FRAX value.
+  explanation: >-
+    The Frax collateralization ratio determines the ratio between collateral and
+    algorithm that makes up the $1 FRAX value.
   answerKeys:
     - A
   difficultyLevel: Low
@@ -106,29 +124,54 @@
   type: SingleChoice
   content: What is the function of veFXS in the Frax ecosystem?
   hint: NoHint
-  explanation: The veFXS feature allows FXS holders to lock up their tokens for a certain period of time in order to generate voting escrow FXS and earn bonuses, governance rights, and AMO (Algorithmic Market Operations Controller) profits. The longer the FXS tokens are locked, the more bonuses awarded to the veFXS holders. Additionally, veFXS holders are able to participate in Frax gauges and influence or direct FXS to different FRAX gauges, a similar mechanism established by the Curve protocol and its gauge system.
+  explanation: >-
+    The veFXS feature allows FXS holders to lock up their tokens for a certain
+    period of time in order to generate voting escrow FXS and earn bonuses,
+    governance rights, and AMO (Algorithmic Market Operations Controller)
+    profits. The longer the FXS tokens are locked, the more bonuses awarded to
+    the veFXS holders. Additionally, veFXS holders are able to participate in
+    Frax gauges and influence or direct FXS to different FRAX gauges, a similar
+    mechanism established by the Curve protocol and its gauge system.
   answerKeys:
     - D
   difficultyLevel: Low
   choices:
-    - content: It allows FXS holders to lock up their tokens for a certain period of time in order to generate voting escrow FXS and earn bonuses, governance rights, and AMO profits
+    - content: >-
+        It allows FXS holders to lock up their tokens for a certain period of
+        time in order to generate voting escrow FXS and earn bonuses, governance
+        rights, and AMO profits
       key: A
-    - content: It allows FXS holders to participate in Frax gauges and influence or direct FXS to different FRAX gauges
+    - content: >-
+        It allows FXS holders to participate in Frax gauges and influence or
+        direct FXS to different FRAX gauges
       key: B
-    - content: It allows FXS holders to earn bonuses for recollateralizing the Frax Protocol
+    - content: >-
+        It allows FXS holders to earn bonuses for recollateralizing the Frax
+        Protocol
       key: C
     - content: All of the above
       key: D
 - uuid: 8296f55c-8179-4fcb-850d-ec2ef250de9d
   type: SingleChoice
-  content: How does the Frax Protocol handle situations where additional collateral is needed?
+  content: >-
+    How does the Frax Protocol handle situations where additional collateral is
+    needed?
   hint: NoHint
-  explanation: The Frax Protocol has built-in mechanisms, known as recollateralization and buybacks, to handle situations where additional collateral is needed or excess collateral is present. When the total collateral value in USD falls below the desired collateral ratio, recollateralization allows users to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%. This incentivizes arbitragers to close the gap and restore the collateral ratio for FRAX.
+  explanation: >-
+    The Frax Protocol has built-in mechanisms, known as recollateralization and
+    buybacks, to handle situations where additional collateral is needed or
+    excess collateral is present. When the total collateral value in USD falls
+    below the desired collateral ratio, recollateralization allows users to add
+    collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%.
+    This incentivizes arbitragers to close the gap and restore the collateral
+    ratio for FRAX.
   answerKeys:
     - A
   difficultyLevel: Low
   choices:
-    - content: a) By using a recollateralization mechanism to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%
+    - content: >-
+        a) By using a recollateralization mechanism to add collateral in
+        exchange for newly minted FXS tokens at a bonus rate of 0.20%
       key: A
     - content: b) By using a buyback mechanism
       key: B
@@ -138,14 +181,24 @@
       key: D
 - uuid: b7593e55-dc3b-4c3b-ac99-a41b942a39f3
   type: SingleChoice
-  content: How does the Frax Protocol handle situations when there is more collateral than needed to maintain the collateral ratio?
+  content: >-
+    How does the Frax Protocol handle situations when there is more collateral
+    than needed to maintain the collateral ratio?
   hint: NoHint
-  explanation: Buybacks occur when there is more collateral than needed to maintain the collateral ratio. In this case, FXS holders can use FXS tokens to "buy back" the excess collateral, which is then burned by the platform. This converts the excess value into FXS tokens, maintaining the target collateral ratio. However, it's important to note that there is no bonus rate for the buyback function.
+  explanation: >-
+    Buybacks occur when there is more collateral than needed to maintain the
+    collateral ratio. In this case, FXS holders can use FXS tokens to "buy back"
+    the excess collateral, which is then burned by the platform. This converts
+    the excess value into FXS tokens, maintaining the target collateral ratio.
+    However, it's important to note that there is no bonus rate for the buyback
+    function.
   answerKeys:
     - B
   difficultyLevel: Low
   choices:
-    - content: a) By using a recollateralization mechanism to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%
+    - content: >-
+        a) By using a recollateralization mechanism to add collateral in
+        exchange for newly minted FXS tokens at a bonus rate of 0.20%
       key: A
     - content: b) By using a buyback mechanism to remove excess collateral
       key: B
@@ -155,18 +208,26 @@
       key: D
 - uuid: aa185885-7cf1-458f-a424-1e995ac78b52
   type: SingleChoice
-  content: How does the Frax ecosystem incentivize long-term participation from community members?
+  content: >-
+    How does the Frax ecosystem incentivize long-term participation from
+    community members?
   hint: NoHint
-  explanation: The veFXS feature allows FXS holders to lock up their tokens for a certain period of time in order to generate voting escrow FXS and earn bonuses, governance rights, and AMO (Algorithmic Market Operations Controller) profits. The longer the FXS tokens are locked, the more bonuses awarded to the veFXS holders. Additionally, veFXS holders are able to participate in Frax gauges and influence or direct FXS to different FRAX gauges.
+  explanation: >-
+    The veFXS feature allows FXS holders to lock up their tokens for a certain
+    period of time in order to generate voting escrow FXS and earn bonuses,
+    governance rights, and AMO (Algorithmic Market Operations Controller)
+    profits. The longer the FXS tokens are locked, the more bonuses awarded to
+    the veFXS holders. Additionally, veFXS holders are able to participate in
+    Frax gauges and influence or direct FXS to different FRAX gauges.
   answerKeys:
     - D
   difficultyLevel: Low
   choices:
-    - content:  Through the emission of FXS tokens
+    - content: Through the emission of FXS tokens
       key: A
-    - content:  Through the vote of FXS stakers
+    - content: Through the vote of FXS stakers
       key: B
-    - content:  Through the "Gauge Rewards System"
+    - content: Through the "Gauge Rewards System"
       key: C
-    - content:  All of the above
+    - content: All of the above
       key: D
