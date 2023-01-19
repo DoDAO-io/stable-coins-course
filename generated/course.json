@@ -1232,28 +1232,29 @@
         {
           "uuid": "b7593e55-dc3b-4c3b-ac99-a41b942a39f3",
           "type": "SingleChoice",
-          "content": "How does the Frax Protocol handle situations when there is more collateral than needed to maintain the collateral ratio?",
+          "content": "Pick the correct statement. Assume that the collateral ratio is 85%.",
           "hint": "NoHint",
-          "explanation": "Buybacks occur when there is more collateral than needed to maintain the collateral ratio. In this case, FXS holders can use FXS tokens to \"buy back\" the excess collateral, which is then burned by the platform. This converts the excess value into FXS tokens, maintaining the target collateral ratio. However, it's important to note that there is no bonus rate for the buyback function.",
+          "explanation": "Anyone can mint new tokens by depositing $1 worth of value into the system. The value can be in the form of either FXS or collateral. When FRAX is in the 100% collateral phase, all of the value that is used to mint new tokens must be in collateral. As the protocol transition into the fractional state, some of the value that enters into the system during minting becomes FXS (which is then burned). For example, in a 96% collateral ratio, every FRAX minted requires $.96 of collateral and burning $.04 worth of FXS. Thus, In a 85% collateral ratio, every FRAX minted requires $.85 of collateral and burning $.15 of FXS, and so on.",
           "answerKeys": [
             "B"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "a) By using a recollateralization mechanism to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%",
+              "content": "Every FRAX minted requires $1 of collateral and burning $.85 worth of FXS",
               "key": "A"
             },
             {
-              "content": "b) By using a buyback mechanism to remove excess collateral",
+              "content": "Every FRAX minted requires $.85 of collateral and burning $.15 worth of FXS",
               "key": "B"
             },
             {
-              "content": "c) By increasing the collateralization ratio",
+              "content": "Every FRAX minted requires $.85 of collateral and burning $1 worth of FXS",
               "key": "C"
             },
             {
-              "content": "d) By decreasing the collateralization ratio",
+              "content": "Every FRAX minted requires $.15 of collateral and burning $.85 worth of FXS",
               "key": "D"
             }
           ]
