@@ -193,7 +193,7 @@
       content: By allowing users to make a profit of 1 cent for every dollar minted
 - uuid: b7593e55-dc3b-4c3b-ac99-a41b942a39f3
   type: SingleChoice
-  content: Pick the correct statement. Assume that the collateral ratio is 85%.
+  content: Pick the correct statement. Assume that the collateral ratio is 97%.
   hint: NoHint
   explanation: >-
     Anyone can mint new tokens by depositing $1 worth of value into the system.
@@ -203,8 +203,8 @@
     some of the value that enters into the system during minting becomes FXS
     (which is then burned). For example, in a 96% collateral ratio, every FRAX
     minted requires $.96 of collateral and burning $.04 worth of FXS. Thus, In a
-    85% collateral ratio, every FRAX minted requires $.85 of collateral and
-    burning $.15 of FXS, and so on.
+    97% collateral ratio, every FRAX minted requires $.97 of collateral and
+    burning $.03 of FXS, and so on.
   answerKeys:
     - B
   subTopics: []
@@ -212,19 +212,19 @@
   choices:
     - key: A
       content: >-
-        Every FRAX minted requires $1 of collateral and burning $.85 worth of
+        Every FRAX minted requires $1 of collateral and burning $.97 worth of
         FXS
     - key: B
       content: >-
-        Every FRAX minted requires $.85 of collateral and burning $.15 worth of
+        Every FRAX minted requires $.97 of collateral and burning $.03 worth of
         FXS
     - key: C
       content: >-
-        Every FRAX minted requires $.85 of collateral and burning $1 worth of
+        Every FRAX minted requires $.97 of collateral and burning $1 worth of
         FXS
     - key: D
       content: >-
-        Every FRAX minted requires $.15 of collateral and burning $.85 worth of
+        Every FRAX minted requires $.03 of collateral and burning $.97 worth of
         FXS
 - uuid: aa185885-7cf1-458f-a424-1e995ac78b52
   type: SingleChoice
