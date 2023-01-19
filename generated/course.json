@@ -1263,28 +1263,29 @@
         {
           "uuid": "aa185885-7cf1-458f-a424-1e995ac78b52",
           "type": "SingleChoice",
-          "content": "How does the Frax ecosystem incentivize long-term participation from community members?",
+          "content": "Pick the correct statement. Assume that the collateral ratio is 98%.",
           "hint": "NoHint",
-          "explanation": "The veFXS feature allows FXS holders to lock up their tokens for a certain period of time in order to generate voting escrow FXS and earn bonuses, governance rights, and AMO (Algorithmic Market Operations Controller) profits. The longer the FXS tokens are locked, the more bonuses awarded to the veFXS holders. Additionally, veFXS holders are able to participate in Frax gauges and influence or direct FXS to different FRAX gauges.",
+          "explanation": "As the protocol moves into the fractional phase, part of the value that leaves the system during redemption becomes FXS (which is minted to give to the redeeming user). For example, in a 98% collateral ratio, every FRAX can be redeemed for $.98 of collateral and $.02 of minted FXS. In a 97% collateral ratio, every FRAX can be redeemed for $.97 of collateral and $.03 of minted FXS.",
           "answerKeys": [
-            "D"
+            "C"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Through the emission of FXS tokens",
+              "content": "Every FRAX can be redeemed for $.98 of minted FXS and $.02 of collateral",
               "key": "A"
             },
             {
-              "content": "Through the vote of FXS stakers",
+              "content": "Every FRAX can be redeemed for $.98 of collateral and $1 of minted FXS",
               "key": "B"
             },
             {
-              "content": "Through the \"Gauge Rewards System\"",
+              "content": "Every FRAX can be redeemed for $.98 of collateral and $.02 of minted FXS",
               "key": "C"
             },
             {
-              "content": "All of the above",
+              "content": "Every FRAX can be redeemed for $1 of collateral and $.02 of minted FXS",
               "key": "D"
             }
           ]
