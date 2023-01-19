@@ -1202,28 +1202,29 @@
         {
           "uuid": "8296f55c-8179-4fcb-850d-ec2ef250de9d",
           "type": "SingleChoice",
-          "content": "How does the Frax Protocol handle situations where additional collateral is needed?",
+          "content": "How does the FRAX protocol create arbitrage opportunities when the price moves below $1?",
           "hint": "NoHint",
-          "explanation": "The Frax Protocol has built-in mechanisms, known as recollateralization and buybacks, to handle situations where additional collateral is needed or excess collateral is present. When the total collateral value in USD falls below the desired collateral ratio, recollateralization allows users to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%. This incentivizes arbitragers to close the gap and restore the collateral ratio for FRAX.",
+          "explanation": "If the market price of FRAX falls below $1, FRAX tokens can be bought cheaply on the open market and redeemed for $1 of value from the system. This creates an arbitrage opportunity. At all times, users are able to redeem FRAX for $1 worth of value from the system. The only difference is what proportion of the collateral and FXS is returned to the redeemer.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "a) By using a recollateralization mechanism to add collateral in exchange for newly minted FXS tokens at a bonus rate of 0.20%",
+              "content": "By allowing users to mint new tokens by depositing $1 worth of value into the system",
               "key": "A"
             },
             {
-              "content": "b) By using a buyback mechanism",
+              "content": "By allowing users to redeem FRAX for $1 worth of value from the system",
               "key": "B"
             },
             {
-              "content": "c) By increasing the collateralization ratio",
+              "content": "By allowing users to buy FRAX cheaply on the open market",
               "key": "C"
             },
             {
-              "content": "d) By decreasing the collateralization ratio",
+              "content": "By allowing users to make a profit of 1 cent for every dollar minted",
               "key": "D"
             }
           ]
