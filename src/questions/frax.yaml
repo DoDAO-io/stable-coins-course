@@ -101,25 +101,24 @@
       content: 100%
 - uuid: 6d880f47-b461-4b53-ac02-9c4458c0f4a8
   type: SingleChoice
-  content: What is Arbitrage?
+  content: At all times, can users redeem FRAX for $1 worth of value from the system?
   hint: NoHint
   explanation: >-
-    Arbitrage is the practice of buying and selling assets in different markets
-    to take advantage of price discrepancies.
+    At all times, in order to mint new FRAX a user must place $1 worth of value
+    into the system.
   answerKeys:
     - A
-  difficultyLevel: Low
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: >-
-        The practice of buying and selling assets in different markets to take
-        advantage of price discrepancies
-      key: A
-    - content: The practice of buying and selling assets in same market
-      key: B
-    - content: The practice of lending money to individuals or businesses
-      key: C
-    - content: The practice of speculating on the future price of assets
-      key: D
+    - key: A
+      content: 'Yes'
+    - key: B
+      content: 'No'
+    - key: C
+      content: Only when FRAX is in the 100% collateral phase
+    - key: D
+      content: Only when FRAX is in the fractional phase
 - uuid: 99946a10-9bd1-48bf-903b-a74dfc3f8121
   type: SingleChoice
   content: What is the Frax collateral ratio?

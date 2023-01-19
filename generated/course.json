@@ -1113,28 +1113,29 @@
         {
           "uuid": "6d880f47-b461-4b53-ac02-9c4458c0f4a8",
           "type": "SingleChoice",
-          "content": "What is Arbitrage?",
+          "content": "At all times, can users redeem FRAX for $1 worth of value from the system?",
           "hint": "NoHint",
-          "explanation": "Arbitrage is the practice of buying and selling assets in different markets to take advantage of price discrepancies.",
+          "explanation": "At all times, in order to mint new FRAX a user must place $1 worth of value into the system.",
           "answerKeys": [
             "A"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "The practice of buying and selling assets in different markets to take advantage of price discrepancies",
+              "content": "Yes",
               "key": "A"
             },
             {
-              "content": "The practice of buying and selling assets in same market",
+              "content": "No",
               "key": "B"
             },
             {
-              "content": "The practice of lending money to individuals or businesses",
+              "content": "Only when FRAX is in the 100% collateral phase",
               "key": "C"
             },
             {
-              "content": "The practice of speculating on the future price of assets",
+              "content": "Only when FRAX is in the fractional phase",
               "key": "D"
             }
           ]
