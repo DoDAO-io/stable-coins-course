@@ -93,7 +93,8 @@
           "answerKeys": [
             "A"
           ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "A stablecoin that is pegged to the value of the US dollar",

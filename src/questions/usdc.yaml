@@ -5,21 +5,24 @@
   explanation: USDC is a stablecoin that is pegged to the value of the US dollar.
   answerKeys:
     - A
-  difficultyLevel: Low
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: A stablecoin that is pegged to the value of the US dollar
-      key: A
-    - content: A cryptocurrency exchange based in San Francisco
-      key: B
-    - content: A trading platform for institutional investors
-      key: C
-    - content: A peer-to-peer payment platform
-      key: D
+    - key: A
+      content: A stablecoin that is pegged to the value of the US dollar
+    - key: B
+      content: A cryptocurrency exchange based in San Francisco
+    - key: C
+      content: A trading platform for institutional investors
+    - key: D
+      content: A peer-to-peer payment platform
 - uuid: f0504eb2-bcdc-4706-ade7-707e666200b7
   type: MultipleChoice
   content: What is the main issue that USDC was designed to address?
   hint: NoHint
-  explanation: Volatility and the difficulty of converting between fiat currencies and cryptocurrencies are the main issues that USDC was designed to address.
+  explanation: >-
+    Volatility and the difficulty of converting between fiat currencies and
+    cryptocurrencies are the main issues that USDC was designed to address.
   answerKeys:
     - A
     - B
@@ -27,7 +30,9 @@
   choices:
     - content: Volatility
       key: A
-    - content: The difficulty of converting between fiat currencies and cryptocurrencies
+    - content: >-
+        The difficulty of converting between fiat currencies and
+        cryptocurrencies
       key: B
     - content: Accessibility
       key: C
@@ -54,7 +59,9 @@
   type: SingleChoice
   content: What is an attestation from an accounting firm similar to?
   hint: NoHint
-  explanation: An attestation from an accounting firm is similar to an audit in that it provides assurance around specific statements or criteria.
+  explanation: >-
+    An attestation from an accounting firm is similar to an audit in that it
+    provides assurance around specific statements or criteria.
   answerKeys:
     - D
   difficultyLevel: Low
@@ -76,11 +83,15 @@
     - D
   difficultyLevel: Low
   choices:
-    - content: To provide a stable form of cryptocurrency that is pegged to the value of the US dollar
+    - content: >-
+        To provide a stable form of cryptocurrency that is pegged to the value
+        of the US dollar
       key: A
     - content: To facilitate faster and cheaper global money transfers
       key: B
-    - content: To increase financial inclusion for people without access to bank accounts
+    - content: >-
+        To increase financial inclusion for people without access to bank
+        accounts
       key: C
     - content: All of the above
       key: D
@@ -105,12 +116,19 @@
   type: SingleChoice
   content: What are USDC reserves made up of?
   hint: NoHint
-  explanation: USDC is fully backed by the equivalent value of U.S. dollar-denominated assets and is held in the management and custody of leading U.S. financial institutions, including BlackRock and Bank of New York Mellon. The USDC reserve consists of cash and short-dated U.S. government obligations, specifically U.S. Treasuries with maturities of three months or less.
+  explanation: >-
+    USDC is fully backed by the equivalent value of U.S. dollar-denominated
+    assets and is held in the management and custody of leading U.S. financial
+    institutions, including BlackRock and Bank of New York Mellon. The USDC
+    reserve consists of cash and short-dated U.S. government obligations,
+    specifically U.S. Treasuries with maturities of three months or less.
   answerKeys:
     - A
   difficultyLevel: Low
   choices:
-    - content: Cash and short-dated U.S. government obligations, specifically U.S. Treasuries with maturities of 3 months or less
+    - content: >-
+        Cash and short-dated U.S. government obligations, specifically U.S.
+        Treasuries with maturities of 3 months or less
       key: A
     - content: A combination of cryptocurrencies and traditional fiat currencies
       key: B
@@ -165,7 +183,9 @@
       key: A
     - content: It is pegged to the value of the US dollar
       key: B
-    - content: It allows for fast and easy conversion between US dollars and cryptocurrencies
+    - content: >-
+        It allows for fast and easy conversion between US dollars and
+        cryptocurrencies
       key: C
     - content: It is mined using a proof-of-work algorithm
       key: D
