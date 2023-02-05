@@ -2,7 +2,10 @@
   type: MultipleChoice
   content: Pick the correct options about FRAX.
   hint: FRAX is not centralized.
-  explanation: ''
+  explanation: >-
+    The Frax protocol is a decentralized stablecoin that utilizes a novel
+    mechanism to maintain price stability. It is open-source and permissionless
+    and is currently implemented on Ethereum and 12 other chains.
   answerKeys:
     - A
     - B
