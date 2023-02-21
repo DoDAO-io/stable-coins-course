@@ -1300,5 +1300,6 @@
   "topicConfig": {
     "showExplanations": false,
     "showHints": false
-  }
+  },
+  "priority": 75
 }
